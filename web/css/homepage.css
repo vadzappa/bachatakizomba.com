@@ -4,16 +4,17 @@ div.home-page-banner {
     padding: 0;
     margin: 0 auto;
     background-color: white;
-    background-image: url("../images/home-top-banner.png");
+    background-image: url("../images/home-top-banner.jpg");
     background-repeat: no-repeat;
     width: 100%;
-    height: 251px;
+    height: 275px;
+    position: relative;
 }
 
 div.home-page-lang-switcher-menu {
-    position: relative;
-    top: 220px;
-    left: 35px;
+    position: absolute;
+    top: 245px;
+    right: 15px;
 }
 
 div.homa-page-banner-image-continuation {
@@ -22,7 +23,7 @@ div.homa-page-banner-image-continuation {
 
 div.youtube-video {
     float: right;
-    margin-right: 5px;
+    margin-top: 10px;
 }
 
 div.main-menu {
@@ -45,15 +46,22 @@ div.hot-news {
     background-color: #65B1E3;
     width: 380px;
     max-width: 380px;
-    min-height: 174px;
-    height: 174px;
-    max-height: 174px;
+    min-height: 357px;
+    height: 357px;
+    max-height: 357px;
 }
 
 div.hot-news p, div.hot-news h1 {
     text-align: center;
     width: 100%;
     margin: 14px 0 0;
+}
+
+div.hot-news p.justified {
+    text-align: justify;
+    margin: 3em 1em;
+    width: 90%;
+    max-width: 90%;
 }
 
 div.hot-news h1 {
