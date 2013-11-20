@@ -1,0 +1,17 @@
+[
+    {
+        "-include-ext": ["/common.json", "/common-breads.json"]
+    },
+    {"combo-passes-breadcrumb":"Combi Passes"},
+    {"combo-passes-section-header":"Combi Passes"},
+    {"combo-passes-combo-pass":"Combi pass"},
+    {"combo-passes-first-time-triple":"For first time in Latvia you can get combi pass to three great dance events for special price."},
+    {"combo-passes-prices-table":"Prices will change every month. Hurry up!"},
+    {"combo-passes-until-02":"Until 28.02"},
+    {"combo-passes-until-03":"Until 31.03"},
+    {"combo-passes-until-04":"Until 30.04"},
+    {"combo-passes-triple-combo":"Triple Combi (All 3)"},
+    {"combo-passes-blc-combo":"Combi with BLC"},
+    {"combo-passes-rsf-combo":"Combi with RSF"},
+    {"combo-passes-events-sites":"Event&apos;s sites"}
+]

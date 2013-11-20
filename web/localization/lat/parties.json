@@ -1,0 +1,38 @@
+[
+    {
+        "-include-ext": ["/common.json", "/common-breads.json"]
+    },
+    {
+        "page-title": "LAT: On The Wave - 2nd Bachata Kizomba Festival 3-5 May 2013"
+    },
+        {"parties-header":"Ballītes"},
+        {"parties-breadcrumb":"Ballītes"},
+        {"thu-party":"Ceturtdiena, 2. maijs – Pre Party"},
+        {"thu-party-place":"Friends Club"},
+        {"thu-party-loc":"Adrese: Elizabetes iela 55, Rīga"},
+        {"thu-party-times":"No <strong>21:00</strong> līdz <strong>3:00</strong>"},
+        {"fri-party":"Piektdiena, 3. maijs"},
+        {"fri-party-place":"Maritim Park Hotel Riga"},
+        {"fri-party-loc":"Adrese: Slokas iela 1, Rīga"},
+        {"fri-party-dresscode":"Dreskods - Let it shine!"},
+        {"fri-party-descr":"Šonakt mirdz it viss! Mirdz visi! Mirdzošs apģērbs, apavi, aksesuāri... jebkas...  sudrabots, zeltīts, spīdīgs, mirdzošs..."},
+        {"fri-party-times":"No <strong>22:00</strong> līdz <strong>5:00</strong>"},
+        {"fri-party-show":"Šovu programma no <strong>00:00</strong>"},
+        {"fri-party-floors":"Divas dēju zāles: sensual zāle  un salsa zāle"},
+        {"sat-party":"Sestdiena, 4. maijs"},
+        {"sat-party-place":"Maritim Park Hotel Riga"},
+        {"sat-party-loc":"Adrese: Slokas iela 1, Rīga"},
+        {"sat-party-dresscode":"Dreskods - Fruit party"},
+        {"sat-party-descr":"Krāsas, krāsas, krāsas...  jebkas ar ogām, augļiem, ziediem..."},
+        {"sat-party-times":"No <strong>22:00</strong> līdz <strong>5:00</strong>"},
+        {"sat-party-show":"Šovu programma no <strong>00:00</strong>"},
+        {"sat-party-floors":"Divas dēju zāles: sensual zāle  un salsa zāle"},
+        {"sun-party":"Svētdiena, 5. maijs"},
+        {"sun-party-place":"Maritim Park Hotel Riga"},
+        {"sun-party-loc":"Adrese: Slokas iela 1, Rīga"},
+        {"sun-party-dresscode":"Dreskods - On the wave"},
+        {"sun-party-desc":"Sapucēsimies tā, lai paši jūtamies uz viļņa! Mūsu mīļākās krāsas, formas, viļņi, strīpas..."},
+        {"sun-party-times":"No <strong>22:00</strong> līdz <strong>4:30</strong>"},
+        {"sun-party-show":"Šovu programma no <strong>00:00</strong>"},
+        {"sun-party-floors":"Divas dēju zāles: galvenā zāle ar mix  music  un sensual zāle"}
+]

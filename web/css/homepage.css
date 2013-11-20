@@ -1,0 +1,88 @@
+@import "common.css";
+
+div.home-page-banner {
+    padding: 0;
+    margin: 0 auto;
+    background-color: white;
+    background-image: url("../images/home-top-banner.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 251px;
+}
+
+div.home-page-lang-switcher-menu {
+    position: relative;
+    top: 220px;
+    left: 35px;
+}
+
+div.homa-page-banner-image-continuation {
+    float: left;
+}
+
+div.youtube-video {
+    float: right;
+    margin-right: 5px;
+}
+
+div.main-menu {
+    float: left;
+    width: 380px;
+    max-width: 380px;
+    font-size: 1.7em;
+}
+
+div.main-menu li {
+    margin: 10px 0 0 0;
+}
+
+div.hot-news {
+    float: left;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-top: 10px;
+    background-color: #65B1E3;
+    width: 380px;
+    max-width: 380px;
+    min-height: 174px;
+    height: 174px;
+    max-height: 174px;
+}
+
+div.hot-news p, div.hot-news h1 {
+    text-align: center;
+    width: 100%;
+    margin: 14px 0 0;
+}
+
+div.hot-news h1 {
+    color: white;
+    font-size: 2.8em;
+}
+
+div.hot-news a {
+    color: white;
+    text-decoration: underline;
+}
+
+div.last-news {
+    float: left;
+    margin-left: 20px;
+    max-width: 560px;
+}
+
+div.last-news ul, div.last-news li {
+    list-style: none;
+    padding-left: 0;
+}
+
+div.last-news li {
+    padding-top: 30px;
+}
+
+div.last-news li div.news-header {
+    font-size: 2em;
+    color: #007BC9;
+    font-weight: bold;
+}

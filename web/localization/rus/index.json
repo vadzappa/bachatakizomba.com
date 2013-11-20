@@ -1,0 +1,15 @@
+[
+    {
+        "-include-ext": ["/common.json", "/common-breads.json"]
+    },
+        {"index-news-1-header": "Всё и все вместе!"},
+        {"index-news-1-text": "Все занятия и вечеринки будут проводиться в одном месте."},
+        {"index-news-2-header": "Впервые у нас Zouk!"},
+        {"index-news-2-text": "Не пропустите занятия по зуку! "},
+        {"index-news-3-header": "Уникальный Triple Pass!"},
+        {"index-news-3-text": "Возможность приобрести объединённый пасс на все 3 Латвийских фестиваля по супер цене."},
+            {"index-combi-as-never": "Уникальное предложение"},
+            {"index-combi-header": "Triple Combi"},
+            {"index-combi-enjoy": "Один билет на три самых лучших<br/> фестиваля Латвии!"},
+            {"index-combi-check": "Более подробно!!!"}
+]

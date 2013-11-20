@@ -1,0 +1,6 @@
+[
+    {
+        "-include-ext": ["/common.json", "/common-breads.json"]
+    },
+            {"program-breadcrumb":"Программа"},{"program-header":"Программа"},{"program-download-link":"<a href='/program.pdf?v=1' target='_blank'>Версия для печати</a>"}
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "-include-ext": ["/common.json", "/common-breads.json"]
+    },
+        {"combo-passes-breadcrumb":"Combi biļetes"},
+        {"combo-passes-section-header":"Combi biļetes"},
+        {"combo-passes-combo-pass":"Combi biļete"},
+        {"combo-passes-first-time-triple":"Pirmo reizi Latvijā jūs varat iegādāties biļeti par īpašu cenu uz trim lieliskiem deju pasākumiem:"},
+        {"combo-passes-prices-table":"Cenas mainās katru mēnesi. PASTEIDZIETIES!"},
+        {"combo-passes-until-02":"Līdz 28.02"},
+        {"combo-passes-until-03":"Līdz 31.03"},
+        {"combo-passes-until-04":"Līdz 30.04"},
+        {"combo-passes-triple-combo":"Triple Combi (Visi 3)"},
+        {"combo-passes-blc-combo":"Combi ar BLC"},
+        {"combo-passes-rsf-combo":"Combi ar RSF"},
+        {"combo-passes-events-sites":"Festivālu saites"}
+]

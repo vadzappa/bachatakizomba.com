@@ -1,0 +1,25 @@
+[
+    {
+        "-include-ext": ["/common.json", "/common-breads.json"]
+    },
+        {"venue-breadcrumb":"Места"},
+        {"venue-section-header":"Места"},
+        {"venue-one-place-for-all":"Всё в одном месте"},
+        {"venue-held-at":"В этом году все занятия и вечеринки фестиваля будут происходить в:"},
+        {"venue-address-details":"Maritim Park Hotel Riga 4*<br/>Адрес: ул. Слокас, 1, Рига"},
+        {"venue-prices":"Цены на номера"},
+        {"venue-price-standard-single":"Стандартный одноместный номер:"},
+        {"venue-price-standard-double":"Стандартный двухместный номер:"},
+        {"venue-price-super-single":"Улучшенный одноместный номер:"},
+        {"venue-price-super-double":"Улучшенный двухместный номер:"},
+        {"venue-price-includes":"* в цены номера включено: налог, бесплатный Wi Fi, завтрак, фитнесс центр и парковка."},
+        {"venue-payment-type":"Оплата: на месте, в отеле наличными или кредитной картой."},
+        {"venue-booking-details":"Чтобы зарезервировать номер пожалуйста пишите на электронный адрес: reservations@maritim.lv<br/> и обязательно укажите код  2LBKF для резервации номера по специальной цене."},
+        {"venue-transfer":"Транзит"},
+        {"venue-transfer-offered":"Есть предложение по встрече в аэропорту."},
+        {"venue-transfer-cost-header":"Транзит Аэропорт – Maritim Park Hotel Riga  или Maritim Park Hotel Riga – Аэропорт стоит:"},
+        {"venue-transfer-cost-1-3":"10 &euro; (от 1 до 3 персон в машине)"},
+        {"venue-transfer-cost-3-7":"30 &euro; (от 4 до 7 персон в микроавтобусе)"},
+        {"venue-transfer-taxi-driver":"Водитель такси встретит вас в здании аэропорта во время прибытия самолёта с табличкой имени пребываемого."},
+        {"venue-transfer-aknowledgement":"Пожалуйста дайте все данные своего прибытия во время резервации отеля, чтобы заказать трансфер."}
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "-include-ext": ["/common.json", "/common-breads.json"]
+    },
+    {"gallery-passes-breadcrumb":"Gallery"},
+    {"gallery-section-header":"Gallery 2012"},
+    {"workshops-gallery-header":"Workshops"},
+    {"parties-gallery-header":"Parties"},
+    {"shows-gallery-header":"Shows"}
+]

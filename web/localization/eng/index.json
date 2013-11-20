@@ -1,0 +1,15 @@
+[
+    {
+        "-include-ext": ["/common.json", "/common-breads.json"]
+    },
+    {"index-news-1-header": "All in one place!"},
+    {"index-news-1-text": "All workshops and parties wil be held in one place."},
+    {"index-news-2-header": "Zouk Premier!"},
+    {"index-news-2-text": "Don&apos;t miss Zouk workshops."},
+    {"index-news-3-header": "Unique Triple Pass!"},
+    {"index-news-3-text": "Opportunity to purchase one united pass to all festivals in Latvia for super price."},
+    {"index-combi-as-never": "As never before"},
+    {"index-combi-header": "Triple Combi"},
+    {"index-combi-enjoy": "Enjoy three GREAT dance<br/> events in Riga with combi pass"},
+    {"index-combi-check": "Check out now!!!"}
+]

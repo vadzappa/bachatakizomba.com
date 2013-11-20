@@ -1,0 +1,14 @@
+[
+    {
+        "-include-ext": ["/common.json", "/common-breads.json"]
+    },
+        {"contacts-breadcrumb":"Контакты"},
+        {"contacts-section-header":"Контакты"},
+        {"contacts-festival-facebook":"Наш фестиваль на Facebook"},
+        {"contacts-festival-facebook-link":"Для более подробной информации нажмите здесь."},
+        {"contacts-irina-name":"Ирина Якобовиц"},
+        {"contacts-irina-phone":"Тел. +371 28662886"},
+        {"contacts-nataly-name":"Натали Христолюбова"},
+        {"contacts-nataly-phone":"Тел. +371 29453470"},
+        {"contacts-linda-name":"Линда Хаданёнок"}
+]

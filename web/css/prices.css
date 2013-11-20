@@ -1,0 +1,48 @@
+@import "typical.css";
+
+div.prices-section {
+    padding-bottom: 70px;
+    margin-top: 25px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+div.prices-section ul {
+    margin: 15px 0 0 25px;
+    padding: 0;
+    list-style: none;
+}
+
+div.prices-section ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+div.prices-section table {
+    width: 100%;
+    text-align: center;
+    border: none;
+    margin: 0;
+    padding: 0 25px;
+}
+
+div.prices-section table th {
+    text-align: left;
+    border: none;
+}
+
+div.prices-section table td {
+    text-align: center;
+}
+
+div.prices-section table tr.bold th, div.prices-section table tr.bold td {
+    font-weight: bold;
+}
+
+div.prices-section table tr.alt th, div.prices-section table tr.alt td {
+    background-color: white;
+}
+
+div.prices-section table tr.head th, div.prices-section table tr.head td {
+    font-size: 0.7em;
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "-include-ext": ["/common.json", "/common-breads.json"]
+    },
+    {
+        "page-title": "On The Wave - 2nd Bachata Kizomba Festival 3-5 May 2013"
+    },
+    {"parties-header":"Parties"},
+    {"parties-breadcrumb":"Parties"},
+    {"thu-party":"Thursday, May 2 – Pre Party"},
+    {"thu-party-place":"Friends Club"},
+    {"thu-party-loc":"Address: 55 Elizabetes Str., Riga"},
+    {"thu-party-times":"From <strong>21:00</strong> till <strong>3:00</strong>"},
+    {"fri-party":"Friday, May 3"},
+    {"fri-party-place":"Maritim Park Hotel Riga"},
+    {"fri-party-loc":"Address: 1 Slokas Str., Riga"},
+    {"fri-party-dresscode":"Dress code - Let it shine!"},
+    {"fri-party-descr":"The night when everybody is going to shine - shiny clothes, shoes, accessoiries, anything that shines - silver, gold, aureate, glittering, sparkling..."},
+    {"fri-party-times":"From <strong>22:00</strong> till <strong>5:00</strong>"},
+    {"fri-party-show":"Show program at <strong>00:00</strong>"},
+    {"fri-party-floors":"2 dance rooms: sensual room and salsa room"},
+    {"sat-party":"Saturday, May 4"},
+    {"sat-party-place":"Maritim Park Hotel Riga"},
+    {"sat-party-loc":"Address: 1 Slokas Str., Riga"},
+    {"sat-party-dresscode":"Dress code - Fruit party"},
+    {"sat-party-descr":"Colours, colours , colours... anything containing different berries, fruit, flowers..."},
+    {"sat-party-times":"From <strong>22:00</strong> till <strong>5:00</strong>"},
+    {"sat-party-show":"Show program at <strong>00:00</strong>"},
+    {"sat-party-floors":"2 dance rooms: sensual room and salsa room"},
+    {"sun-party":"Sunday, May 5"},
+    {"sun-party-place":"Maritim Park Hotel Riga"},
+    {"sun-party-loc":"Address: 1 Slokas Str., Riga"},
+    {"sun-party-dresscode":"Dress code - On the wave"},
+    {"sun-party-desc":"Wear what makes you feel to be on the wave! Your favourite colours, shapes, wavy, striped..."},
+    {"sun-party-times":"From <strong>22:00</strong> till <strong>4:30</strong>"},
+    {"sun-party-show":"Show program at <strong>00:00</strong>"},
+    {"sun-party-floors":"2 dance rooms: main roomwith mix music and sensual room"}
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "-include-ext": ["/common.json", "/common-breads.json"]
+    },
+        {"combo-passes-breadcrumb":"Комби пассы"},
+        {"combo-passes-section-header":"Комби пассы"},
+        {"combo-passes-combo-pass":"Комби пасс"},
+        {"combo-passes-first-time-triple":"Впервые в Латвии есть возможность приобрести комби пасс по супер цене на все три латвийских фестиваля:"},
+        {"combo-passes-prices-table":"Цены меняются каждый месяц. Не пропустите!"},
+        {"combo-passes-until-02":"До 28.02"},
+        {"combo-passes-until-03":"До 31.03"},
+        {"combo-passes-until-04":"До 30.04"},
+        {"combo-passes-triple-combo":"Тройное комби (все 3)"},
+        {"combo-passes-blc-combo":"Комби с BLC"},
+        {"combo-passes-rsf-combo":"Комби с RSF"},
+        {"combo-passes-events-sites":"Страницы фестивалей"}
+]

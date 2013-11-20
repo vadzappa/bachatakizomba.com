@@ -1,0 +1,6 @@
+@import "typical.css";
+
+div.program-section {
+    padding: 0 25px 70px 25px;
+    margin-top: 25px;
+}

@@ -1,0 +1,27 @@
+[
+    {
+        "-include-ext": ["/common.json", "/common-breads.json"]
+    },
+    {"prices-breadcrumb":"Prices"},
+    {"prices-section-header":"Prices"},
+    {"price-until-12":"Until 31.12"},
+    {"price-until-01":"Until 31.01"},
+    {"price-until-02":"Until 28.02"},
+    {"price-until-03":"Until 31.03"},
+    {"price-until-05":"Until 02.05"},
+    {"price-until-door":"At the door"},
+    {"price-full-pass":"Full pass"},
+    {"price-friday-pass":"Friday pass"},
+    {"price-saturday-pass":"Saturday pass"},
+    {"price-sunday-pass":"Sunday pass"},
+    {"price-party-pass":"Party pass"},
+    {"price-friday-party":"Friday party"},
+    {"price-saturday-party":"Saturday party"},
+    {"price-sunday-party":"Sunday party"},
+    {"price-single-workshop":"Single workshop"},
+    {"price-full-pass-descr":"Full pass – all workshops and parties of the festival."},
+    {"price-friday-pass-descr":"Friday pass – friday&apos;s workshops and party."},
+    {"price-saturday-pass-descr":"Saturday pass – saturday&apos;s workshops and party."},
+    {"price-sunday-pass-descr":"Sunday pass – sunday&apos;s workshops and party."},
+    {"price-party-pass-descr":"Party pass – parties on Friday, Saturday and Sunday."}
+]

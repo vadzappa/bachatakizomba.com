@@ -1,0 +1,30 @@
+[
+    {
+        "-include-ext": ["/common.json", "/common-breads.json"]
+    },
+        {"registration-breadcrumb":"Reģistrācija"},
+        {"registration-section-header":"Reģistrācija"},
+        {"registration-name":"Vārds"},
+        {"registration-surname":"Uzvārds"},
+        {"registration-email":"E-pasts"},
+        {"registration-phone":"Telefons"},
+        {"registration-gender":"Dzimums"},
+        {"registration-gender-male":"Male"},
+        {"registration-gender-female":"Female"},
+        {"registration-country":"Valsts"},
+        {"registration-address":"Adrese"},
+        {"registration-level":"Līmenis"},
+        {"registration-level-beginner":"Beginner"},
+        {"registration-level-intermediate":"Intermediate"},
+        {"registration-level-advanced":"Advanced"},
+        {"registration-pass":"Biļete"},
+        {"registration-pass-full":"Pilnā"},
+        {"registration-pass-friday":"Piektdienas"},
+        {"registration-pass-saturday":"Sestdienas"},
+        {"registration-pass-sunday":"Svētdienas"},
+        {"registration-pass-party":"Ballīšu"},
+        {"registration-notes":"Piezīmes"},
+        {"registration-mandatory-fields":"Obligātie lauki"},
+        {"registration-optional-fields":"Izvēles lauki"},
+        {"registration-submit-button":"Apstiprināt"}
+]

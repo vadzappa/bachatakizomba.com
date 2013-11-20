@@ -1,0 +1,10 @@
+[
+    {
+        "-include-ext": ["/common.json", "/common-breads.json"]
+    },
+        {"gallery-passes-breadcrumb":"Galerija"},
+        {"gallery-section-header":"Galerija 2012"},
+        {"workshops-gallery-header":"Nodarbības"},
+        {"parties-gallery-header":"Ballītes"},
+        {"shows-gallery-header":"Šovi"}
+]

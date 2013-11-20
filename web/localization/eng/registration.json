@@ -1,0 +1,30 @@
+[
+    {
+        "-include-ext": ["/common.json", "/common-breads.json"]
+    },
+    {"registration-breadcrumb":"Registration"},
+    {"registration-section-header":"Registration"},
+    {"registration-name":"Name"},
+    {"registration-surname":"Surname"},
+    {"registration-email":"E-mail"},
+    {"registration-phone":"Phone"},
+    {"registration-gender":"Gender"},
+    {"registration-gender-male":"Male"},
+    {"registration-gender-female":"Female"},
+    {"registration-country":"Country"},
+    {"registration-address":"Address"},
+    {"registration-level":"Level"},
+    {"registration-level-beginner":"Beginner"},
+    {"registration-level-intermediate":"Intermediate"},
+    {"registration-level-advanced":"Advanced"},
+    {"registration-pass":"Pass"},
+    {"registration-pass-full":"Full"},
+    {"registration-pass-friday":"Friday"},
+    {"registration-pass-saturday":"Saturday"},
+    {"registration-pass-sunday":"Sunday"},
+    {"registration-pass-party":"Party"},
+    {"registration-notes":"Notes"},
+    {"registration-mandatory-fields":"Mandatory fields"},
+    {"registration-optional-fields":"Optional fields"},
+    {"registration-submit-button":"Submit"}
+]

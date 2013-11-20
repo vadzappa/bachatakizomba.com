@@ -1,0 +1,30 @@
+[
+    {
+        "-include-ext": ["/common.json", "/common-breads.json"]
+    },
+        {"registration-breadcrumb":"Регистрация"},
+        {"registration-section-header":"Регистрация"},
+        {"registration-name":"Имя"},
+        {"registration-surname":"Фамилия"},
+        {"registration-email":"Эл. адрес"},
+        {"registration-phone":"Телефон"},
+        {"registration-gender":"Пол"},
+        {"registration-gender-male":"Мужской"},
+        {"registration-gender-female":"Женский"},
+        {"registration-country":"Страна"},
+        {"registration-address":"Адрес"},
+        {"registration-level":"Уровень"},
+        {"registration-level-beginner":"Начальный"},
+        {"registration-level-intermediate":"Средний"},
+        {"registration-level-advanced":"Продвинутый"},
+        {"registration-pass":"Вид  пасса"},
+        {"registration-pass-full":"Фулл"},
+        {"registration-pass-friday":"На пятницу"},
+        {"registration-pass-saturday":"На субботу"},
+        {"registration-pass-sunday":"На воскресение"},
+        {"registration-pass-party":"На все вечеринки "},
+        {"registration-notes":"Заметки"},
+        {"registration-mandatory-fields":"Обязательные поля"},
+        {"registration-optional-fields":"Необязательные поля"},
+        {"registration-submit-button":"Подтвердить"}
+]
