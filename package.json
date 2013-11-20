@@ -1,0 +1,29 @@
+{
+  "name": "bachatakizomba.com",
+  "version": "0.0.1",
+  "description": "bachatakizomba.com website",
+  "main": "index.js",
+  "scripts": {
+    "test": "console.log(1);"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vadzappa/bachatakizomba.com.git"
+  },
+  "keywords": [
+    "bachatakizomba.com",
+    "latvian",
+    "bachata",
+    "kizomba",
+    "festival"
+  ],
+  "author": "Zapolski Vadim",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/vadzappa/bachatakizomba.com/issues"
+  },
+  "dependencies": {
+    "express": "~3.4.1",
+    "lodash": "~2.2.1"
+  }
+}
