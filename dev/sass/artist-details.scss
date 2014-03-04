@@ -1,0 +1,37 @@
+@import "typical";
+
+div.artist-details-section {
+    padding-bottom: 70px;
+    margin-top: 25px;
+}
+
+div.artist-details-section div.artist-picture {
+    float: left;
+    max-width: 150px;
+    margin-left: 20px;
+}
+
+div.artist-details-section div.artist-description {
+    float: left;
+    max-width: 420px;
+    margin-left: 20px;
+}
+
+div.artist-details-section div.artist-description p {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: justify;
+}
+
+ul.custom-unordered-list {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul.custom-unordered-list li {
+    background-image: url(../images/custom-list-style.png);
+    background-repeat: no-repeat;
+    background-position: 0px 5px;
+    padding-left: 14px;
+}

@@ -1,0 +1,70 @@
+@import "typical";
+
+div.parties-section {
+    padding-bottom: 70px;
+    margin-top: 25px;
+}
+
+div.concrete-party {
+    padding-left: 20px;
+}
+
+div.concrete-party img {
+    display: block;
+    margin: 30px 0 20px 0;
+}
+
+div.concrete-party h1, div.concrete-party h2, div.concrete-party h3, div.concrete-party h4 {
+    color: black;
+}
+
+div.concrete-party h1 {
+    font-size: 1.7em;
+    margin: 30px 0 20px 0;
+    padding: 0;
+}
+
+div.concrete-party h2 {
+    font-size: 1em;
+    font-style: italic;
+    padding: 0;
+    margin: 20px 0;
+}
+
+div.concrete-party h3 {
+    font-size: 1em;
+    font-style: italic;
+    font-weight: normal;
+    padding: 0;
+    margin: 10px 0;
+}
+
+div.concrete-party h4 {
+    font-size: 1.4em;
+    font-style: italic;
+    font-weight: normal;
+    padding: 0;
+    margin: 15px 0;
+}
+
+.concrete-party ul {
+    list-style: none;
+    margin: 20px 0 20px 20px;
+    padding: 0;
+}
+
+.concrete-party ul li {
+    list-style: none;
+    margin: 5px 0;
+    padding: 0;
+}
+
+.concrete-party ul li span.show-name {
+    display: inline-block;
+    font-weight: bold;
+    width: 300px;
+}
+
+.concrete-party ul li span.show-coutry {
+
+}

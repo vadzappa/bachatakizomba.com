@@ -1,0 +1,25 @@
+@import "typical";
+
+div.artists-section {
+    padding-bottom: 70px;
+}
+
+div.artists-section table {
+    width: 100%;
+    text-align: center;
+    border: none;
+    margin-top: 25px;
+}
+
+div.artists-section table td {
+    text-align: center;
+    border: none;
+}
+
+div.artists-section table td p {
+    color: #007BC9;
+}
+
+div.artists-section table td img {
+    border: none;
+}

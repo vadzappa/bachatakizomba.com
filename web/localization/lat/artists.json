@@ -3,12 +3,17 @@
         "-include-ext": ["/common.json", "/common-breads.json", "/artists-breads.json"]
     },
     {"artist-morenasso-anais":"Morenasso &amp; Anais<br/>(Francija)"},
-    {"artist-ola-macej":"Ola &amp; Macej<br/>(Polija)"},
-    {"artist-bagryel-bego":"Gabryel &amp; Bego<br/>(Spānija)"},
-    {"artist-francis":"Francis Andriana<br/>(Francija)"},
-    {"artist-nemanja-jessica":"Nemanja Sonero<br/>(Serbija/Igaunija)"},
-    {"artist-dragon":"Mr.Dragon &amp; Bruna<br/>(Brazīlija/Holande)"},
-    {"artist-george-daniels":"George Daniels<br/>(Norway)"},
     {"artist-paulo-lanna":"Paulo &amp; Lanna<br/>(Angola)"},
-    {"artist-babacar":"DJ Babacar<br/>(Portugāle)"}
+    {"artist-arawi-alina":"Arawi &amp; Alina<br/>(Belģija)"},
+    {"artist-yasser-solia":"Yasser &amp; Solia<br/>(Kuba/Somija)"},
+    {"artist-nemanja-laura":"Nemanja &amp; Laura<br/>(Serbija/Somija)"},
+    {"artist-tomas-keita":"Tomas Keita<br/>(Spānija)"},
+    {"artist-ivan-salazar":"Ivan Salazar<br/>(Kuba)"},
+    {"artist-slawek-milena":"Slawek &amp; Milena<br/>(Polija)"},
+    {"artist-francis":"Francis Andriana<br/>(Francija)"},
+    {"artist-vishal_raja":"Vishal Raja<br/>(Indija)"},
+    {"artist-babacar":"DJ Babacar<br/>(Portugāle)"},
+    {"artist-mega-sheep":"DJ Mega&apos;N&apos;Sheep<br/>(Baltkrievija)"},
+    {"artist-joker":"DJ The Joker is Wild<br/>(Latvija)"},
+    {"artist-raimo":"DJ Raimo<br/>(Latvija)"}
 ]

@@ -1,0 +1,47 @@
+@import "typical";
+
+div.contacts-section {
+    padding-bottom: 70px;
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+
+div.contacts-section div.contacts-information-keeper {
+    margin: 25px 0 0 170px;
+}
+
+div.contacts-section div.contacts-information-keeper div.concrete-contact {
+    margin-bottom: 20px;
+    vertical-align: middle;
+    position: relative;
+}
+
+div.contacts-section div.contacts-information-keeper div.concrete-contact p {
+    margin: 0;
+}
+
+div.contacts-section div.contacts-information-keeper div.concrete-contact img {
+    float: left;
+    width: 96px;
+    height: 109px;
+    padding-right: 15px;
+}
+
+div.contacts-section div.contacts-information-keeper div.concrete-contact h3 {
+    color: #007BC9;
+    font-size: 1.3em;
+    margin-bottom: 0;
+}
+
+div.contacts-section div.contacts-information-keeper div.concrete-contact a {
+    color: black;
+    text-decoration: underline;
+    font-size: 0.8em;
+    font-weight: normal;
+}
+
+div.contacts-section div.contacts-information-keeper div.concrete-contact div.contact-person-details {
+    position: absolute;
+    left: 116px;
+}

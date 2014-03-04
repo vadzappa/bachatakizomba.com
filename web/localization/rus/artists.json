@@ -2,13 +2,18 @@
     {
         "-include-ext": ["/common.json", "/common-breads.json", "/artists-breads.json"]
     },
-        {"artist-morenasso-anais":"Morenasso &amp; Anais<br/>(France)"},
-        {"artist-ola-macej":"Ola &amp; Macej<br/>(Poland)"},
-        {"artist-bagryel-bego":"Gabryel &amp; Bego<br/>(Spain)"},
-        {"artist-francis":"Francis Andriana<br/>(France)"},
-        {"artist-nemanja-jessica":"Nemanja Sonero<br/>(Serbia/Estonia)"},
-        {"artist-dragon":"Mr.Dragon &amp; Bruna<br/>(Brasil/Holand)"},
-        {"artist-george-daniels":"George Daniels<br/>(Norway)"},
-        {"artist-paulo-lanna":"Paulo &amp; Lanna<br/>(Angola)"},
-        {"artist-babacar":"DJ Babacar<br/>(Portugal)"}
+    {"artist-morenasso-anais":"Morenasso &amp; Anais<br/>(Франция)"},
+    {"artist-paulo-lanna":"Paulo &amp; Lanna<br/>(Ангола)"},
+    {"artist-arawi-alina":"Arawi &amp; Alina<br/>(Бельгия)"},
+    {"artist-yasser-solia":"Yasser &amp; Solia<br/>(Куба/Финляндия)"},
+    {"artist-nemanja-laura":"Nemanja &amp; Laura<br/>(Сербия/Финляндия)"},
+    {"artist-tomas-keita":"Tomas Keita<br/>(Испания)"},
+    {"artist-ivan-salazar":"Ivan Salazar<br/>(Куба)"},
+    {"artist-slawek-milena":"Slawek &amp; Milena<br/>(Польша)"},
+    {"artist-francis":"Francis Andriana<br/>(Франция)"},
+    {"artist-vishal_raja":"Vishal Raja<br/>(Индия)"},
+    {"artist-babacar":"DJ Babacar<br/>(Португалия)"},
+    {"artist-mega-sheep":"DJ Mega&apos;N&apos;Sheep<br/>(Беларусь)"},
+    {"artist-joker":"DJ The Joker is Wild<br/>(Латвия)"},
+    {"artist-raimo":"DJ Raimo<br/>(Латвия)"}
 ]

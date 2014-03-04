@@ -1,0 +1,101 @@
+@import "common.scss";
+
+$mainBannerHeight: 224px;
+$mainMenuWidth: 385px;
+$newsWidth: 550px;
+$kizBombaHeight: 152px;
+
+div.home-page-banner {
+    padding: 0;
+    margin: 0 auto;
+    background-color: white;
+    background-image: url("../images/home/banner.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: $mainBannerHeight;
+    position: relative;
+}
+
+div.home-page-banner-continuation {
+    position: relative;
+    top: $mainBannerHeight;
+}
+
+div.home-page-lang-switcher-menu {
+    position: absolute;
+    top: 369px;
+    left: 123px;
+    a {
+        margin-left: 11px;
+    }
+}
+
+div.homa-page-banner-image-continuation {
+    float: left;
+}
+
+div.youtube-video {
+    float: right;
+    margin: 10px 10px 0 0;
+}
+
+div.main-menu {
+    float: left;
+    width: $mainMenuWidth;
+    max-width: $mainMenuWidth;
+    font-size: 1.7em;
+    li {
+        margin: 10px 0 0 0;
+    }
+}
+
+div.kizbomba {
+    float: left;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-top: 192px;
+    background-color: #65B1E3;
+    width: $mainMenuWidth;
+    max-width: $mainMenuWidth;
+    min-height: $kizBombaHeight;
+    height: $kizBombaHeight;
+    max-height: $kizBombaHeight;
+    h1 {
+        color: white;
+        font-size: 2.8em;
+    }
+    p, h1 {
+        text-align: center;
+        width: 100%;
+        margin: 14px 0 0;
+    }
+    p.justified {
+        text-align: justify;
+        margin: 3em 1em;
+        width: 90%;
+        max-width: 90%;
+    }
+    a {
+        color: white;
+        text-decoration: underline;
+    }
+}
+
+div.last-news {
+    float: left;
+    margin-left: 15px;
+    max-width: $newsWidth;
+    ul, li {
+        list-style: none;
+        padding-left: 0;
+    }
+    li {
+        padding-top: 30px;
+        div.news-header {
+            font-size: 2em;
+            color: #007BC9;
+            font-weight: bold;
+        }
+    }
+}
