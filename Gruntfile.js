@@ -74,7 +74,8 @@ module.exports = function (grunt) {
                 dest: './web/images/',
                 mode: true
             }
-        }
+        },
+        clean: ['./web/css/**.*', './web/*.html', './web/images/**/*']
     });
 
     // These plugins provide necessary tasks.
@@ -82,10 +83,11 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-includes');
+    grunt.loadNpmTasks('grunt-contrib-clean');
 
     // Default task.
     grunt.registerTask('default', ['sass:dev']);
-    grunt.registerTask('watchall', ['watch:styles']);
+    grunt.registerTask('watchall', ['watch:styles', 'watch:templates']);
     grunt.registerTask('prod', ['sass:prod', 'includes:build', 'copy:images']);
     grunt.registerTask('dev', ['sass:dev', 'includes:build', 'copy:images']);
 

@@ -1,0 +1,6 @@
+{
+    "artist.html": "./dev/templates/{%= shortName %}.html",
+    "eng.json": "./web/localization/eng/{%= shortName %}.json",
+    "lat.json": "./web/localization/lat/{%= shortName %}.json",
+    "rus.json": "./web/localization/rus/{%= shortName %}.json"
+}

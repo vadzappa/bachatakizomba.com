@@ -1,0 +1,47 @@
+include "doctype.html"
+<head>
+    <title id="page-title">
+        include "title.html"
+    </title>
+    <link rel="stylesheet" href="css/artist-details.css"/>
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="scripts/commons.js"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+</head>
+<body>
+<div class="content">
+    include "banner.html"
+    include "mainmenu.html"
+    <div class="center-content">
+        <p class="bread-crumbs"><a id="home-breadcrumbs-link" href="index.html">Home</a> / <a id="artists-breadcrumb" href="artists.html">Artists</a> / {%= fullName %}</p>
+
+        <h2>{%= fullName %}</h2>
+
+        <div class="artist-details-section">
+            <div class="artist-picture">
+                <img src="images/artists/{%= shortName %}.jpg" title="{%= fullName %}" alt="{%= fullName %}" width="145" height="145"/>
+            </div>
+            <div class="artist-description">
+                <p id="{%= shortName %}-p-1">
+
+                </p>
+
+                <p id="{%= shortName %}-p-2">
+
+                </p>
+
+                <p id="{%= shortName %}-p-3">
+
+                </p>
+
+                <p id="{%= shortName %}-p-4">
+
+                </p>
+            </div>
+            <div class="clearer">&nbsp;</div>
+        </div>
+    </div>
+    include "footer.html"
+</div>
+</body>
+include "doctypeclose.html"

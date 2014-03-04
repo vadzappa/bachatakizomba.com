@@ -1,0 +1,12 @@
+[
+    {
+        "-include-ext": ["/common.json", "/common-breads.json", "/artists-breads.json"]
+    },
+    {
+        "page-title": "On The Wave - 3rd Bachata Kizomba Festival 2-5 May 2014"
+    },
+    {"{%= shortName %}-p-1":""},
+    {"{%= shortName %}-p-2":""},
+    {"{%= shortName %}-p-3":""},
+    {"{%= shortName %}-p-4":""}
+]
