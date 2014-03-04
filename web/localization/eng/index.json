@@ -2,17 +2,10 @@
     {
         "-include-ext": ["/common.json", "/common-breads.json"]
     },
-    {"reconstruction-text-1": "At the moment the site is being maintained. We&apos;re sorry for any inconvenience."},
-    {"reconstruction-text-2": "Full information is available at the <a href=\"https://www.facebook.com/events/693041147388529/\">LATVIAN SENSUAL DANCE FESTIVAL &quot;ON THE WAVE&quot;</a> on Facebook."},
-    {"reconstruction-text-3": "For all requests regarding passes and any other questions please contact us by Email: <a href=\"mailto:info@bachatakizomba.com\">info@bachatakizomba.com</a>"},
-    {"index-news-1-header": "All in one place!"},
-    {"index-news-1-text": "All workshops and parties wil be held in one place."},
-    {"index-news-2-header": "Zouk Premier!"},
-    {"index-news-2-text": "Don&apos;t miss Zouk workshops."},
-    {"index-news-3-header": "Unique Triple Pass!"},
-    {"index-news-3-text": "Opportunity to purchase one united pass to all festivals in Latvia for super price."},
-    {"index-combi-as-never": "As never before"},
-    {"index-combi-header": "Triple Combi"},
-    {"index-combi-enjoy": "Enjoy three GREAT dance<br/> events in Riga with combi pass"},
-    {"index-combi-check": "Check out now!!!"}
+    {"index-news-1-header": "Concert G-Amado!"},
+    {"index-news-1-text": "Don&apos;t miss Saturday&apos;s Party with performance of famous singer from Portugal."},
+    {"index-news-2-header": "Wave will be held in &quot;Turība&quot;"},
+    {"index-news-2-text": "All workshop and parties will be held in &quot;Turība&quot; halls."},
+    {"index-news-3-header": "With all the richness of choice, the choice is one – Riga!"},
+    {"index-news-3-text": "Those who were with us, have no doubt where to spend an unforgettable weekend. We are proud of your choice!"}
 ]

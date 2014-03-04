@@ -2,14 +2,10 @@
     {
         "-include-ext": ["/common.json", "/common-breads.json"]
     },
-        {"index-news-1-header": "Viss vienuviet!"},
-        {"index-news-1-text": "Visas nodarbības un ballītes notiks vienā vietā."},
-        {"index-news-2-header": "Jaunums – ZUKS!"},
-        {"index-news-2-text": "Nepalaidiet garām ZUKA nodarbības."},
-        {"index-news-3-header": "Unikāls Triple Pass!"},
-        {"index-news-3-text": "Nebijis piedāvājums – pērc vienu biļeti uz visiem trim Latvijas festivāliem!"},
-            {"index-combi-as-never": "Kā vēl nekad"},
-            {"index-combi-header": "Triple Combi"},
-            {"index-combi-enjoy": "Izbaudiet trīs brīnišķīgus<br/> deju pasākumus ar vienu biļeti!"},
-            {"index-combi-check": "Uzzināt vairāk!!!"}
+    {"index-news-1-header": "G-Amado koncerts!"},
+    {"index-news-1-text": "Nepalaidiet garām sestdienas ballīti, kurā uzstāsies slavenais dziedātājs no Portugāles."},
+    {"index-news-2-header": "Vilnis notiks &quot;Turībā&quot;"},
+    {"index-news-2-text": "Visas nodarbības un ballītes notiks universitātes &quot;Turība&quot; telpās."},
+    {"index-news-3-header": "Pie visas izvēles bagātības, izvēle ir viena – Rīga!"},
+    {"index-news-3-text": "Tie, kuri bija ar mums, nešaubās kur pavadīt neaizmirstamas brīvdienas. Mēs esam lepni par jūsu izvēli!"}
 ]

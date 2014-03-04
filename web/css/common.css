@@ -23,6 +23,10 @@ a.lang-switch {
     font-size: 0.9em;
 }
 
+a.hom-lang-switch {
+    padding: 2px;
+}
+
 div.nospaced {
     padding: 0;
     margin: 0;
