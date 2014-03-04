@@ -6,3 +6,6 @@ node_modules
 Materials_Kiz14*
 Sait_*.pdf
 .sass-cache
+web/css/*
+web/images/*
+web/*.html
