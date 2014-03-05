@@ -1,71 +1,79 @@
 @import "typical.scss";
 
+$venue_font_size: 1em;
 div.venue-section {
     padding-bottom: 70px;
     margin-top: 10px;
     padding-left: 15px;
-}
 
-div.venue-section div.images-keeper img {
-    float: left;
-}
+    h2 {
+        font-size: 1.4em;
+        margin-top: 1.5em;
+    }
 
-div.venue-section div.images-keeper img.second-image {
-    padding-left: 5px;
-}
+    div.images-keeper {
+        img {
+            float: left;
+            &.second-image {
+                padding-left: 5px;
+            }
+            &.top-padded {
+                padding-top: 5px;
+            }
+        }
+    }
 
-div.venue-section div.images-keeper img.top-padded {
-    padding-top: 5px;
-}
+    div.veneu-description {
+        clear: both;
 
-div.venue-section div.veneu-description {
-    clear: both;
-}
+        a, a:link, a:hover, a:active, a:visited {
+            text-decoration: underline;
+            font-size: 1em;
+        }
 
-div.venue-section div.veneu-description div.maritim-logo-keeper {
-    float: left;
-    margin-left: 10px;
-    margin-top: 15px;
-    width: 138px;
-    max-width: 138px;
-}
+        p {
+            font-size: $venue_font_size;
+            margin: 0 0 0 15px;
+        }
 
-div.venue-section div.veneu-description div.venue-description-keeper {
-    float: left;
-    margin-left: 15px;
-    width: 450px;
-    max-width: 450px;
-}
+        div.turiba-logo-keeper {
+            float: left;
+            margin-left: 10px;
+            margin-top: 15px;
+            width: 149px;
+            max-width: 149px;
+        }
 
-div.venue-section div.veneu-description div.venue-description-keeper label {
-    display: inline-block;
-    display: -moz-inline-box;
-    width: 260px;
-}
+        div.venue-description-keeper {
+            float: left;
+            margin-left: 15px;
+            width: 450px;
+            max-width: 450px;
 
-div.venue-section div.veneu-description div.venue-description-keeper p {
-    font-size: 0.9em;
-    margin: 0 0 0 15px;
-}
+            ol {
+                font-size: $venue_font_size;
+                margin: 0 0 0 30px;
+                padding: 0;
+                li {
+                    clear: both;
+                    padding: 25px 0 0 0;
+                    margin: 0;
+                    p {
+                        margin: 0 0 0 -17px;
+                        padding: 0;
+                    }
+                    div.venue-images {
+                        margin: 5px 0 0 -17px;
+                        img {
+                            float: left;
+                            width: 30%;
+                            max-width: 30%;
+                            margin: 0 3% 0 0;
+                        }
+                    }
+                }
+            }
 
-div.venue-section div.veneu-description div.venue-description-keeper p.top-padded {
-    margin-top: 15px;
-}
-
-div.venue-section div.veneu-description div.venue-description-keeper ul {
-    margin: 0 0 0 30px;
-    padding: 0;
-}
-
-div.venue-section div.veneu-description div.venue-description-keeper ul li {
-    padding-left: 20px;
-}
-
-div.venue-section div.veneu-description div.venue-description-keeper p.bold-details {
-    padding-left: 30px;
-    font-weight: bold;
-}
-
-div.venue-section h2 {
-    font-size: 1.4em;
+        }
+    }
 }

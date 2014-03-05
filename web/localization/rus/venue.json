@@ -2,24 +2,18 @@
     {
         "-include-ext": ["/common.json", "/common-breads.json"]
     },
-        {"venue-breadcrumb":"Места"},
-        {"venue-section-header":"Места"},
-        {"venue-one-place-for-all":"Всё в одном месте"},
-        {"venue-held-at":"В этом году все занятия и вечеринки фестиваля будут происходить в:"},
-        {"venue-address-details":"Maritim Park Hotel Riga 4*<br/>Адрес: ул. Слокас, 1, Рига"},
-        {"venue-prices":"Цены на номера"},
-        {"venue-price-standard-single":"Стандартный одноместный номер:"},
-        {"venue-price-standard-double":"Стандартный двухместный номер:"},
-        {"venue-price-super-single":"Улучшенный одноместный номер:"},
-        {"venue-price-super-double":"Улучшенный двухместный номер:"},
-        {"venue-price-includes":"* в цены номера включено: налог, бесплатный Wi Fi, завтрак, фитнесс центр и парковка."},
-        {"venue-payment-type":"Оплата: на месте, в отеле наличными или кредитной картой."},
-        {"venue-booking-details":"Чтобы зарезервировать номер пожалуйста пишите на электронный адрес: reservations@maritim.lv<br/> и обязательно укажите код  2LBKF для резервации номера по специальной цене."},
-        {"venue-transfer":"Транзит"},
-        {"venue-transfer-offered":"Есть предложение по встрече в аэропорту."},
-        {"venue-transfer-cost-header":"Транзит Аэропорт – Maritim Park Hotel Riga  или Maritim Park Hotel Riga – Аэропорт стоит:"},
-        {"venue-transfer-cost-1-3":"10 &euro; (от 1 до 3 персон в машине)"},
-        {"venue-transfer-cost-3-7":"30 &euro; (от 4 до 7 персон в микроавтобусе)"},
-        {"venue-transfer-taxi-driver":"Водитель такси встретит вас в здании аэропорта во время прибытия самолёта с табличкой имени пребываемого."},
-        {"venue-transfer-aknowledgement":"Пожалуйста дайте все данные своего прибытия во время резервации отеля, чтобы заказать трансфер."}
+    {"venue-breadcrumb":"Места"},
+    {"venue-section-header":"Места"},
+    {"venue-main-venue":"Место проведения"},
+    {"venue-main-venue-address":"<strong>Университет &quot;Turiba&quot;</strong>, ул. Грауду 68, Рига <a href=\"http://www.turiba.lv/en/\" target=\"_blank\">http://www.turiba.lv/en/</a>"},
+    {"venue-accommodation":"Резервирование"},
+    {"venue-accommodation-contact":"Чтобы зарезервировать отель нужно написать запрос на электронную почту: info@bachatakizomba.com или написать запрос лично организаторам на Facebook:<br/><a href=\"http://www.facebook.com/nataly.hristolubova\">Nataly Hristolubova</a>, Irina Jakobovica"},
+    {"venue-accommodation-1-title":"<strong>Хостел &quot;Turība&quot;</strong> (ул. Грауду 68, Рига)"},
+    {"venue-accommodation-1-description":"Комнаты по 3-4 человека, 13,-EUR за человека в сутки, без завтрака, туалет и душ в коридоре, доступна кухня.  "},
+    {"venue-accommodation-2-title":"<strong>Гостиница Vilmajas</strong> (ул. Илмаяс 12, Рига)"},
+    {"venue-accommodation-2-description":" Расстояние 1,9 км от места проведения фестиваля. Будут доступны такси с небольшой фиксированной платой до/от места проведения фестиваля.<br/>Двухместный номер (с одной или 2-мя кроватями) 40,-EUR в сутки за 2 персоны, завтрак включён."},
+    {"venue-accommodation-3-title":"<strong>Гостиница Best Hotel</strong> (ул.Гимнастикас 9/11, Рига)"},
+    {"venue-accommodation-3-description":"Расстояние около 1 км от места проведения фестиваля. Двухместный номер (с одной или 2-мя кроватями) 75,-EUR в сутки за 2 персоны, завтрак включён. Трёхместный номер 95,-EUR в сутки за 3 персоны, завтрак включён."},
+    {"venue-accommodation-4-title":"<strong>Гостиница Kolonna Hotel Brigita</strong> (ул. Саулкалнес 11, Рига)"},
+    {"venue-accommodation-4-description":"Расстояние 1,5 км от места проведения фестиваля.Будут доступны такси с небольшой фиксированной платой до/от места проведения фестиваля.<br/>!!!Резервация возможна только с 3 по 5 мая.<br/>Двухместный номер 45,-EUR в сутки за 2 персоны, завтрак включён. Одноместный номер 40,- EUR в сутки, завтрак включён."}
 ]
