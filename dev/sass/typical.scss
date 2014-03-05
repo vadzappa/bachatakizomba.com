@@ -1,6 +1,7 @@
 @import "common.scss";
 
 div.common-banner {
+    position: relative;
     padding: 0;
     margin: 0 auto 10px;
     background-color: white;
@@ -8,12 +9,11 @@ div.common-banner {
     background-repeat: no-repeat;
     width: 100%;
     height: 275px;
-}
-
-div.common-lang-switcher-menu {
-    position: relative;
-    top: 245px;
-    left: 875px;
+    div.common-lang-switcher-menu {
+        position: absolute;
+        top: 245px;
+        right: 15px;
+    }
 }
 
 div.main-menu {
