@@ -24,5 +24,6 @@
     {"price-friday-pass-descr":"Friday pass – friday&apos;s workshops and party."},
     {"price-saturday-pass-descr":"Saturday pass – saturday&apos;s workshops and party."},
     {"price-sunday-pass-descr":"Sunday pass – sunday&apos;s workshops and party."},
-    {"price-party-pass-descr":"Party pass – parties on Friday, Saturday and Sunday."}
+    {"price-party-pass-descr":"Party pass – parties on Friday, Saturday and Sunday."},
+    {"prices-section-image-keeper":"<img src=\"images/prices/prices_eng.jpg\"/>"}
 ]
