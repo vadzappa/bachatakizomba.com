@@ -2,5 +2,8 @@
     {
         "-include-ext": ["/common.json", "/common-breads.json"]
     },
-        {"program-breadcrumb":"Programma"},{"program-header":"Programma"},{"program-download-link":"<a href='/program.pdf?v=1' target='_blank'>Drukas versija</a>"}
+    {"program-breadcrumb":"Programma"},
+    {"program-header":"Programma"},
+    {"program-download-link":"<a href='/program.pdf?v=1' target='_blank'>Programmas drukas versiju varat lejuplādēt šeit.</a>"},
+    {"program-changes-declaimer": "Organizātori patur tiesības veikt izmaiņas programmā."}
 ]

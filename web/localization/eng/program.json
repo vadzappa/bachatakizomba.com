@@ -2,5 +2,8 @@
     {
         "-include-ext": ["/common.json", "/common-breads.json"]
     },
-    {"program-breadcrumb":"Program"},{"program-header":"Program"},{"program-download-link":"<a href='/program.pdf?v=1' target='_blank'>Print version here</a>"}
+    {"program-breadcrumb":"Program"},
+    {"program-header":"Program"},
+    {"program-download-link":"<a href='/program.pdf?v=1' target='_blank'>Printable version of Program you can download here.</a>"},
+    {"program-changes-declaimer": "The organizers keep the right to make changes of the program."}
 ]
