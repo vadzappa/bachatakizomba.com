@@ -1,8 +1,41 @@
 $linkColor: #0F3C64;
 
 @font-face {
-    font-family: MyriadProSemibold;
-    src: url(MyriadPro-Semibold.otf);
+    font-family: MyriadPro;
+    src: url(MyriadPro-regular.ttf);
+}
+
+@font-face {
+    font-family: MyriadPro;
+    src: url(MyriadPro-bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: MyriadPro;
+    src: url(MyriadPro-italic.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: MyriadPro;
+    src: url(MyriadPro-bold-italic.ttf);
+    font-style: italic;
+    font-weight: bold;
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+.clearfix:before, .clearfix:after {
+    display: table;
+    content: "";
+    line-height: 0
+}
+
+.clearfix:after {
+    clear: both
 }
 
 .debug {
@@ -12,12 +45,11 @@ $linkColor: #0F3C64;
 body {
     padding: 0;
     margin: 0;
-    font-family: MyriadProSemibold, Arial, Helvetica, sans-serif;
+    font-family: MyriadPro, Arial, Helvetica, sans-serif;
     font-size: 0.9em;
 }
 
 a, a:link, a:visited, a:hover, a:active {
-    font-family: Verdana, Geneva, sans-serif;
     color: $linkColor;
     font-weight: bold;
     text-decoration: none;
@@ -45,7 +77,7 @@ div.centered {
 }
 
 div.content {
-    margin: 0 auto 2em;
+    margin: 0 auto 1em;
     width: 960px;
 }
 
@@ -55,9 +87,6 @@ div.main-menu {
     }
     ul {
         padding-left: 80px;
-    }
-    a {
-        font-family: Arial, Helvetica, sans-serif;
     }
 }
 

@@ -27,6 +27,9 @@ div.home-page-lang-switcher-menu {
     left: 123px;
     a {
         margin-left: 11px;
+        &:last-child {
+            margin-left: 12px;
+        }
     }
 }
 
@@ -34,13 +37,25 @@ div.homa-page-banner-image-continuation {
     float: left;
 }
 
-div.youtube-video {
+div.left-column {
+    float: left;
+    margin-top: 75px;
+    width: 385px;
+    max-width: 385px;
+}
+
+div.right-column {
     float: right;
-    margin: 10px 10px 0 0;
+    margin: 10px 10px 0 15px;
+    width: 550px;
+    max-width: 550px;
+}
+
+div.youtube-video {
+    margin: 0;
 }
 
 div.main-menu {
-    float: left;
     width: $mainMenuWidth;
     max-width: $mainMenuWidth;
     font-size: 1.7em;
@@ -50,41 +65,14 @@ div.main-menu {
 }
 
 div.kizbomba {
-    float: left;
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 0.9em;
-    font-weight: bold;
-    margin-top: 75px;
-    background: none;
     width: $mainMenuWidth;
     max-width: $mainMenuWidth;
     min-height: $kizBombaHeight;
     height: $kizBombaHeight;
     max-height: $kizBombaHeight;
-    h1 {
-        color: white;
-        font-size: 2.8em;
-    }
-    p, h1 {
-        text-align: center;
-        width: 100%;
-        margin: 14px 0 0;
-    }
-    p.justified {
-        text-align: justify;
-        margin: 3em 1em;
-        width: 90%;
-        max-width: 90%;
-    }
-    a {
-        color: white;
-        text-decoration: underline;
-    }
 }
 
 div.last-news {
-    float: left;
-    margin-left: 15px;
     max-width: $newsWidth;
     ul, li {
         list-style: none;

@@ -2,10 +2,10 @@
     {
         "-include-ext": ["/common.json", "/common-breads.json"]
     },
-    {"index-news-1-header": "Concert G-Amado!"},
-    {"index-news-1-text": "Don&apos;t miss Saturday&apos;s Party with performance of famous singer from Portugal."},
-    {"index-news-2-header": "Wave will be held in &quot;Turība&quot;"},
-    {"index-news-2-text": "All workshop and parties will be held in &quot;Turība&quot; halls."},
-    {"index-news-3-header": "With all the richness of choice, the choice is one – Riga!"},
-    {"index-news-3-text": "Those who were with us, have no doubt where to spend an unforgettable weekend. We are proud of your choice!"}
+    {"index-news-1-header": "All in one place!"},
+    {"index-news-1-text": "All workshops and parties will be held at &quot;Maritim Park Hotel Riga 4*&quot;. You can live, practice and party without leaving the house :)"},
+    {"index-news-2-header": "Our special guest!"},
+    {"index-news-2-text": "A little surprise for Saturday&apos;s Gala Party. Enjoy the dance floor with a live concert by our special guest."},
+    {"index-news-3-header": "With all the richness of choice,"},
+    {"index-news-3-text": "the choice is one – Riga! Those who were with us, have no doubt where to spend an unforgettable weekend. We are proud of your choice!"}
 ]
