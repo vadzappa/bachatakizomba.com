@@ -31,7 +31,7 @@ div.registration-section form label {
 }
 
 div.registration-section form label.mandatory {
-    background-color: #007BC9;
+    background-color: $linkColor;
 }
 
 div.registration-section form label.right {
@@ -63,7 +63,7 @@ div.registration-section div.clarifications {
 }
 
 div.registration-section div.clarifications span.mandatory {
-    background-color: #007BC9;
+    background-color: $linkColor;
 }
 
 div.registration-section div.clarifications span.optional {

@@ -1,6 +1,6 @@
 @import "common.scss";
 
-$mainBannerHeight: 224px;
+$mainBannerHeight: 317px;
 $mainMenuWidth: 385px;
 $newsWidth: 550px;
 $kizBombaHeight: 152px;
@@ -54,8 +54,8 @@ div.kizbomba {
     font-family: Verdana, Geneva, sans-serif;
     font-size: 0.9em;
     font-weight: bold;
-    margin-top: 192px;
-    background-color: #65B1E3;
+    margin-top: 75px;
+    background: none;
     width: $mainMenuWidth;
     max-width: $mainMenuWidth;
     min-height: $kizBombaHeight;
@@ -94,7 +94,7 @@ div.last-news {
         padding-top: 30px;
         div.news-header {
             font-size: 2em;
-            color: #007BC9;
+            color: $linkColor;
             font-weight: bold;
         }
     }
