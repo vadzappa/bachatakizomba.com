@@ -47,6 +47,7 @@ body {
     margin: 0;
     font-family: MyriadPro, Arial, Helvetica, sans-serif;
     font-size: 0.9em;
+    color: $linkColor;
 }
 
 a, a:link, a:visited, a:hover, a:active {
@@ -91,8 +92,7 @@ div.main-menu {
 }
 
 div.footer {
-    clear: both;
-    background-color: #201113;
+    background-color: #000000;
     color: white;
     margin: 0 auto;
     width: 100%;

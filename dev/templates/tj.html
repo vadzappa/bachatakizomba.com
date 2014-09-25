@@ -1,0 +1,50 @@
+include "doctype.html"
+<head>
+    include "metatags.html"
+    <title id="page-title">
+        include "title.html"
+    </title>
+    <link rel="stylesheet" href="css/artist-details.css"/>
+    <script type="text/javascript" src="scripts/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="scripts/commons.js"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+</head>
+<body>
+<div class="content">
+    include "banner.html"
+    <div class="left-column">
+        include "lang-switch.html"
+        include "mainmenu.html"
+    </div>
+    <div class="center-content">
+        <p class="bread-crumbs"><a id="home-breadcrumbs-link" href="index.html">Home</a> / <a id="artists-breadcrumb" href="artists.html">Artists</a> / DJ Tj</p>
+
+        <h2>DJ Tj</h2>
+
+        <div class="artist-details-section">
+            <div class="artist-picture">
+                <img src="images/artists/tj.jpg" title="DJ Tj" alt="DJ Tj" width="145" height="145"/>
+            </div>
+            <div class="artist-description">
+                <p id="tj-p-1">
+                    After practicing this passion since 1994 as a hobby, I decided in 2009
+                    during a tour to Havana Club, to make music a priority!
+                </p>
+
+                <p id="tj-p-2">
+                    Now, with all this experience, I can provide a quality that’s good known at
+                    all Europe.
+                </p>
+                <p id="tj-p-3">
+                    I mixed in many clubs (Pacha Versailles, Pacha Cap d&apos;Agde, The Modjo
+                    Toulouse, Montpellier Circus&hellip;) and was the official DJ of the tour Latino
+                    Havana Club from 2009 to 2010.
+                </p>
+            </div>
+            <div class="clearer">&nbsp;</div>
+        </div>
+    </div>
+    include "footer.html"
+</div>
+</body>
+include "doctypeclose.html"

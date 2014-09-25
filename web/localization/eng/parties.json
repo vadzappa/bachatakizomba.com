@@ -2,9 +2,6 @@
     {
         "-include-ext": ["/common.json", "/common-breads.json"]
     },
-    {
-        "page-title": "On The Wave - 3rd Bachata Kizomba Festival 2-5 May 2014"
-    },
     {"parties-header":"Parties"},
     {"parties-breadcrumb":"Parties"},
     {"venue-main-venue":"Main Venue"},

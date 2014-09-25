@@ -2,9 +2,6 @@
     {
         "-include-ext": ["/common.json", "/common-breads.json"]
     },
-    {
-        "page-title": "RUS: On The Wave - 3rd Bachata Kizomba Festival 2-5 May 2014"
-    }  ,
         {"parties-header":"Вечеринки"},
         {"parties-breadcrumb":"Вечеринки"},
         {"venue-main-venue":"Место проведения"},

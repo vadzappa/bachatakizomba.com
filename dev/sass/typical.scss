@@ -9,18 +9,22 @@ div.common-banner {
     background-repeat: no-repeat;
     width: 100%;
     height: 275px;
-    div.common-lang-switcher-menu {
-        position: absolute;
-        top: 245px;
-        right: 15px;
-    }
 }
 
-div.main-menu {
+div.left-column {
     float: left;
     width: 215px;
     max-width: 215px;
-    font-size: 1.4em;
+    div.common-lang-switcher-menu {
+        text-align: right;
+        margin-right: 35px;
+        a {
+            margin-left: 7px;
+        }
+    }
+    .main-menu {
+        font-size: 1.4em;
+    }
     li {
         margin: 3px 0 0 0;
     }
@@ -29,10 +33,10 @@ div.main-menu {
 div.center-content {
     float: left;
     margin-left: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 0;
     max-width: 645px;
     width: 645px;
-    background-color: #CCEDFF;
+    background: url("../images/center-section-background.png") repeat-y #E0E0E0;
 }
 
 p.bread-crumbs {

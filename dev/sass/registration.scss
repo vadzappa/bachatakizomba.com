@@ -20,7 +20,7 @@ div.registration-section form li {
 div.registration-section form label {
     padding: 2px 50px 2px 5px;
     color: white;
-    background-color: #7FBDE4;
+    background-color: #3E6796;
     font-size: 1.1em;
     width: 50px;
     display: inline-block;
@@ -67,7 +67,7 @@ div.registration-section div.clarifications span.mandatory {
 }
 
 div.registration-section div.clarifications span.optional {
-    background-color: #7FBDE4;
+    background-color: #3E6796;
 }
 
 div.registration-section div.submitbutton {
@@ -77,8 +77,10 @@ div.registration-section div.submitbutton {
 div.registration-section form input[type=submit] {
     border: none;
     width: auto;
-    background-color: #CCEDFF;
+    background: none;
     text-decoration: underline;
-    font-size: 1.3em;
+    font-size: 1.4em;
     font-weight: bold;
+    color: #201113;
+    cursor: pointer;
 }

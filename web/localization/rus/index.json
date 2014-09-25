@@ -3,10 +3,10 @@
         "-include-ext": ["/common.json", "/common-breads.json"]
     },
 
-    {"index-news-1-header": "Концерт G-Amado!"},
-    {"index-news-1-text": "Не пропустите вечеринку в субботу, на которой будет петь известный певец из Португалии."},
-    {"index-news-2-header": "Волна пройдет в &quot;Turība&quot;"},
-    {"index-news-2-text": "Все занятия и все вечеринки пройдут в помещениях университета &quot;Turība&quot;."},
+    {"index-news-1-header": "Всё и все вместе!"},
+    {"index-news-1-text": "Все занятия и вечеринки будут проводиться в одном месте."},
+    {"index-news-2-header": "Our special guest!"},
+    {"index-news-2-text": "A little surprise for Saturday&apos;s Gala Party. Enjoy the dance floor with a live concert by our special guest."},
     {"index-news-3-header": "При всем богатстве выбора,"},
     {"index-news-3-text": "выбор один – Рига! Те, кто были с нами, не сомневаются где провести незабываемый викенд. Мы горды вашим выбором!"}
 ]

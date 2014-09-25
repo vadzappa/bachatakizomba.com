@@ -34,6 +34,7 @@ div.venue-section {
         p {
             font-size: $venue_font_size;
             margin: 0 0 0 15px;
+            color: #000000;
         }
 
         div.turiba-logo-keeper {
@@ -49,6 +50,29 @@ div.venue-section {
             margin-left: 15px;
             width: 450px;
             max-width: 450px;
+
+            .top-padded {
+                margin-top: 15px;
+            }
+
+            .bold-details {
+                font-weight: bold;
+                margin-left: 40px;
+            }
+
+            ul {
+                color: #000000;
+                margin: 0 0 0 30px;
+                padding: 0;
+                li {
+                    label {
+                        display: inline-block;
+                        display: -moz-inline-box;
+                        width: 260px;
+                    }
+                    padding-left: 20px;
+                }
+            }
 
             ol {
                 font-size: $venue_font_size;
