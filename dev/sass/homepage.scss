@@ -26,9 +26,12 @@ div.home-page-lang-switcher-menu {
     top: 369px;
     left: 123px;
     a {
-        margin-left: 11px;
+        margin-left: 12px;
+        &:first-child {
+            margin-left: 11px;
+        }
         &:last-child {
-            margin-left: 12px;
+            margin-left: 13px;
         }
     }
 }
