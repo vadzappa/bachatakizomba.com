@@ -1,29 +1,5 @@
 $linkColor: #0F3C64;
 
-@font-face {
-    font-family: MyriadPro;
-    src: url(MyriadPro-regular.ttf);
-}
-
-@font-face {
-    font-family: MyriadPro;
-    src: url(MyriadPro-bold.ttf);
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: MyriadPro;
-    src: url(MyriadPro-italic.ttf);
-    font-style: italic;
-}
-
-@font-face {
-    font-family: MyriadPro;
-    src: url(MyriadPro-bold-italic.ttf);
-    font-style: italic;
-    font-weight: bold;
-}
-
 .clearfix {
     *zoom: 1
 }
@@ -45,7 +21,7 @@ $linkColor: #0F3C64;
 body {
     padding: 0;
     margin: 0;
-    font-family: MyriadPro, Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, Verdana, sans-serif;
     font-size: 0.9em;
     color: $linkColor;
 }

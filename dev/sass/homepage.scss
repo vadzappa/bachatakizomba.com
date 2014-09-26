@@ -49,7 +49,7 @@ div.left-column {
 
 div.right-column {
     float: right;
-    margin: 10px 10px 0 15px;
+    margin: 10px 10px 30px 15px;
     width: 550px;
     max-width: 550px;
 }
@@ -82,7 +82,7 @@ div.last-news {
         padding-left: 0;
     }
     li {
-        padding-top: 30px;
+        padding-top: 25px;
         div.news-header {
             font-size: 2em;
             color: $linkColor;
