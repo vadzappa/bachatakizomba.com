@@ -1,0 +1,62 @@
+include "doctype.html"
+<head>
+  include "metatags.html"
+  <title id="page-title">
+    include "title.html"
+  </title>
+  <link rel="stylesheet" href="css/payment.css"/>
+  <script type="text/javascript" src="scripts/lodash.compat.min.js"></script>
+  <script type="text/javascript" src="scripts/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="scripts/bacon.min.js"></script>
+  <script type="text/javascript" src="scripts/moment.min.js"></script>
+  <script type="text/javascript" src="scripts/button.js"></script>
+  <script type="text/javascript" src="scripts/commons.js"></script>
+  <script type="text/javascript" src="scripts/payment.js"></script>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+</head>
+<body>
+<div class="content">
+  include "banner.html"
+  <div class="left-column">
+    include "lang-switch.html"
+    include "mainmenu.html"
+  </div>
+  <div class="center-content">
+    <p class="bread-crumbs"><a id="home-breadcrumbs-link" href="index.html">Home</a> / <span id="registration-breadcrumb">PayPal Payment</span></p>
+
+    <h2 id="registration-section-header">PayPal Payment</h2>
+
+    <div class="registration-section">
+      <form target="_blank" method="post">
+        <ol>
+          <li>
+            <label for="registration-name" class="mandatory">Name</label><input name="registration-name" id="registration-name" type="text"/>
+          </li>
+          <li>
+            <label for="registration-surname" class="mandatory">Surname</label><input name="registration-surname" id="registration-surname" type="text"/>
+          </li>
+          <li>
+            <label for="registration-email"  class="mandatory">E-mail</label><input name="registration-email" id="registration-email" type="text"/>
+          </li>
+
+          <li>
+            <label for="registration-pass" class="mandatory">Pass</label><select name="registration-pass" id="registration-pass">
+              <option value="Full" id="registration-pass-full">Full</option>
+              <option value="Saturday" id="registration-pass-saturday">Saturday</option>
+              <option value="Sunday" id="registration-pass-sunday">Sunday</option>
+              <option value="Party" id="registration-pass-party">Party</option>
+            </select>
+          </li>
+
+        </ol>
+        <div class="clarifications">
+          <span class="mandatory"><img src="images/emptypx.png" alt="" title="" width="15"/></span> <span id="registration-mandatory-fields">Mandatory Fields</span>
+        </div>
+      </form>
+      <div id="paypal-purchase"></div>
+    </div>
+  </div>
+  include "footer.html"
+</div>
+</body>
+include "doctypeclose.html"
