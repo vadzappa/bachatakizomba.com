@@ -55,10 +55,23 @@ module.exports = function (grunt) {
                 ]
             }
         },
+        uglify: {
+            prod: {
+                files: [
+                    {
+                        expand: true,
+                        debugInfo: true,
+                        cwd: './web/scripts',
+                        src: ['*.js'],
+                        dest: './web/scripts'
+                    }
+                ]
+            }
+        },
         includes: {
             build: {
                 cwd: './dev/templates',
-                src: [ '*.html'],
+                src: ['*.html'],
                 dest: 'web/',
                 options: {
                     flatten: true,
@@ -73,6 +86,13 @@ module.exports = function (grunt) {
                 src: '**/*',
                 dest: './web/images/',
                 mode: true
+            },
+            scripts: {
+                expand: true,
+                cwd: './dev/scripts/',
+                src: '**/*',
+                dest: './web/scripts/',
+                mode: true
             }
         },
         clean: ['./web/css/**.*', './web/*.html', './web/images/**/*']
@@ -84,11 +104,12 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-includes');
     grunt.loadNpmTasks('grunt-contrib-clean');
+    grunt.loadNpmTasks('grunt-contrib-uglify');
 
     // Default task.
     grunt.registerTask('default', ['sass:dev']);
     grunt.registerTask('watchall', ['watch:styles', 'watch:templates']);
-    grunt.registerTask('prod', ['sass:prod', 'includes:build', 'copy:images']);
-    grunt.registerTask('dev', ['sass:dev', 'includes:build', 'copy:images']);
+    grunt.registerTask('prod', ['sass:prod', 'includes:build', 'copy:images', 'copy:scripts', 'uglify:prod']);
+    grunt.registerTask('dev', ['sass:dev', 'includes:build', 'copy:images', 'copy:scripts']);
 
 };

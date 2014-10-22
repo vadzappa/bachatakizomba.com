@@ -5,7 +5,11 @@ include "doctype.html"
         include "title.html"
     </title>
     <link rel="stylesheet" href="css/registration.css"/>
+    <script type="text/javascript" src="scripts/lodash.compat.min.js"></script>
     <script type="text/javascript" src="scripts/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="scripts/bacon.min.js"></script>
+    <script type="text/javascript" src="scripts/moment.min.js"></script>
+    <script type="text/javascript" src="scripts/button.js"></script>
     <script type="text/javascript" src="scripts/commons.js"></script>
     <script type="text/javascript" src="scripts/registration.js"></script>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
@@ -105,6 +109,7 @@ include "doctype.html"
                     <input type="submit" id="registration-submit-button" value="Submit"/>
                 </div>
             </form>
+            <div id="paypal-purchase"></div>
         </div>
     </div>
     include "footer.html"
