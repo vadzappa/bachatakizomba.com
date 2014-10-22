@@ -7,5 +7,6 @@ Materials_Kiz14*
 Sait_*.pdf
 .sass-cache
 web/css/*
+web/scripts/*
 web/images/*
 web/*.html
