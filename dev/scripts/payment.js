@@ -120,7 +120,7 @@ com = window.com;
             surnameField.val($.QueryString.surname);
             emailField.val($.QueryString.email);
             if ($.QueryString.pass) {
-                passTypeField.val();
+                passTypeField.val($.QueryString.pass);
             }
 
             updatePayPalButton();
