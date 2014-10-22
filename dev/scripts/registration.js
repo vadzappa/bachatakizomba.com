@@ -92,7 +92,7 @@ com = window.com;
                         },
                         buttonData = {
                             "return": 'http://bachatakizomba.com',
-                            "cancel_return": 'http://bachatakizomba.com',
+                            "cancel_return": 'http://bachatakizomba.com/registration.html',
                             "cbt": 'Back to bachatakizomba.com',
                             "image_url": 'http://bachatakizomba.com/images/home-top-banner.png',
                             "currency_code": CURRENCY,
