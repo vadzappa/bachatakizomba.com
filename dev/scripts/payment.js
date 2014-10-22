@@ -97,6 +97,7 @@ com = window.com;
                             "image_url": 'http://bachatakizomba.com/images/home-top-banner.png',
                             "currency_code": CURRENCY,
                             "name": 'On The Wave - ' + passType + ' Pass; ' + name + ', ' + surname + ', ' + emailField.val(),
+                            "tax": '4',
                             "amount": passPrice,
                             "email": emailField.val(),
                             "custom": name + ', ' + surname + ', ' + emailField.val(),
