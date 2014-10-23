@@ -11,6 +11,7 @@ com = window.com;
     var MERCHANT_ID = 'irinajoan@gmail.com',
         IS_SANDBOX = false,
         MOMENT_FORMAT = 'DD.MM.YY',
+        MAIL_DT_FORMAT = 'MM/DD/YYYY HH:mm:ss',
         PRICE_TABLE = {
             '30.09.14': {Full: '60', Saturday: '80', Sunday: '70', Party: '55'},
             '31.10.14': {Full: '70', Saturday: '80', Sunday: '70', Party: '55'},
@@ -71,7 +72,16 @@ com = window.com;
             //dataFilter = true,
                 reInitPayPalButtonEventStream = selectsUpdated.merge(textDataUpdated).merge(formSubmit).filter(dataFilter).debounce(300),
                 purchaseButtonContainer = $('[id="paypal-purchase"]'),
-                currentTime = moment(),
+                parseTimeStamp = function (timestamp) {
+                    try {
+                        var parsedTimestamp = moment(timestamp, MAIL_DT_FORMAT);
+                        return parsedTimestamp.isValid() ? parsedTimestamp : moment();
+                    } catch (err) {
+                        return moment();
+                    }
+
+                },
+                currentTime = $.QueryString.ts ? parseTimeStamp($.QueryString.ts) : moment(),
                 nameField = $form.find('#registration-name'),
                 surnameField = $form.find('#registration-surname'),
                 emailField = $form.find('#registration-email'),
@@ -79,7 +89,7 @@ com = window.com;
                 updatePayPalButton = function () {
                     var priceFilter = function (priceDateLimitPrices, dateTime) {
                             var timeLimit = moment(dateTime, MOMENT_FORMAT);
-                            return currentTime.isBefore(timeLimit);
+                            return currentTime.isBefore(timeLimit, 'day') || currentTime.isSame(timeLimit, 'day');
                         },
                         passType = passTypeField.find('option:selected').val(),
                         priceForToday = _.find(PRICE_TABLE, priceFilter),
