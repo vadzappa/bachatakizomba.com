@@ -79,6 +79,24 @@ module.exports = function (grunt) {
                 }
             }
         },
+        replace: {
+            development: {
+                src: ['web/*.html'],
+                overwrite: true,
+                replacements: [{
+                    from: 'GOOGLE_PUBLIC_RE_CAPTCHA_KEY',                   // string replacement
+                    to: '6LcCd_0SAAAAAF4G-NtFdO05KHnhF67IOeCJACOb'
+                }]
+            },
+            production: {
+                src: ['web/*.html'],
+                overwrite: true,
+                replacements: [{
+                    from: 'GOOGLE_PUBLIC_RE_CAPTCHA_KEY',                   // string replacement
+                    to: '6LfAhv0SAAAAAOQsDRawFRx7QlYancR1mdjhM98a'
+                }]
+            }
+        },
         copy: {
             images: {
                 expand: true,
@@ -105,14 +123,16 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-includes');
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-text-replace');
 
     // Default task.
     grunt.registerTask('default', ['sass:dev']);
     grunt.registerTask('watchall', ['watch:styles', 'watch:templates']);
-    grunt.registerTask('prod', ['sass:prod', 'includes:build', 'copy:images', 'copy:scripts', 'uglify:prod']);
-    grunt.registerTask('dev', ['sass:dev', 'includes:build', 'copy:images', 'copy:scripts']);
+    grunt.registerTask('prod', ['sass:prod', 'includes:build', 'replace:production', 'copy:images', 'copy:scripts', 'uglify:prod']);
+    grunt.registerTask('dev', ['sass:dev', 'includes:build', 'replace:development', 'copy:images', 'copy:scripts']);
 
       // Heroku task
-    grunt.registerTask("heroku", ["prod"]);
+    grunt.registerTask("heroku:development", ["dev"]);
+    grunt.registerTask("heroku:production", ["prod"]);
 
 };

@@ -15,7 +15,8 @@ var _ = require('lodash'),
         'entry.244204092': EMAIL_REGEXP,
         'entry.2042503042': NOT_EMPTY_REGEXP,
         'entry.1818835772': NOT_EMPTY_REGEXP
-    };
+    },
+    google_re_captcha_PK = process.env.NODE_ENV && process.env.NODE_ENV === 'production' ? process.env.G_API_PK : process.env.G_API_PK_PROD;
 
 var hasInvalidFormField = function (parameters) {
         return _.find(parameters, function (value, name) {
@@ -45,7 +46,7 @@ module.exports = function (req, resp) {
     request.post({
         url: 'https://www.google.com/recaptcha/api/verify',
         form: {
-            privatekey: process.env.G_API_PK,
+            privatekey: google_re_captcha_PK,
             remoteip: req.ip,
             challenge: req.body.recaptcha_challenge_field,
             response: req.body.recaptcha_response_field

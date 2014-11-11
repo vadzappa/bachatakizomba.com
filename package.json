@@ -36,7 +36,8 @@
     "grunt-contrib-uglify": "^0.6.0",
     "request": "^2.47.0",
     "body-parser": "^1.9.2",
-    "cheerio": "^0.18.0"
+    "cheerio": "^0.18.0",
+    "grunt-text-replace": "^0.3.12"
   },
   "engines": {
     "node": "0.10.x"
