@@ -6,7 +6,7 @@
   "scripts": {
     "test": "console.log(1);",
     "start": "node index.js",
-    "postinstall": "grunt prod"
+    "postinstall": "./node_modules/grunt-cli/bin/grunt prod"
   },
   "repository": {
     "type": "git",
