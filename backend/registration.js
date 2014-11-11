@@ -57,6 +57,7 @@ module.exports = function (req, resp) {
             request.post({url: registrationUrl, form: req.body});
             resp.redirect('/registration_ok.html');
         } else {
+            console.log(responseDetails);
             resendFormForResubmission(req, resp);
         }
     });
