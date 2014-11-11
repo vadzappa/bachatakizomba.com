@@ -16,7 +16,7 @@ var _ = require('lodash'),
         'entry.2042503042': NOT_EMPTY_REGEXP,
         'entry.1818835772': NOT_EMPTY_REGEXP
     },
-    google_re_captcha_PK = process.env.NODE_ENV && process.env.NODE_ENV === 'production' ? process.env.G_API_PK : process.env.G_API_PK_PROD;
+    google_re_captcha_PK = process.env.NODE_ENV && process.env.NODE_ENV === 'production' ? process.env.G_API_PK_PROD : process.env.G_API_PK;
 
 var hasInvalidFormField = function (parameters) {
         return _.find(parameters, function (value, name) {
