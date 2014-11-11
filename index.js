@@ -2,7 +2,8 @@ var express = require('express'),
     app = express(),
     http = require("http"),
     path = require("path"),
-    workingFolder = path.join(__dirname, '/web');
+    workingFolder = path.join(__dirname, '/web'),
+    port = process.env.PORT || 80;
 
 // simple logger
 app.use(function (req, res, next) {
@@ -21,8 +22,8 @@ app.use(function (req, res, next) {
 
 });
 
-http.createServer(app).listen(80, function () {
-    console.log("Express server listening on port " + 80);
+http.createServer(app).listen(port, function () {
+    console.log("Express server listening on port " + port);
 });
 
 /*https.createServer(options, app).listen(3000, function () {
