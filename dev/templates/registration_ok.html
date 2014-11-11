@@ -1,0 +1,33 @@
+include "doctype.html"
+<head>
+    include "metatags.html"
+    <title id="page-title">
+        include "title.html"
+    </title>
+    <link rel="stylesheet" href="css/registration.css"/>
+    <script type="text/javascript" src="scripts/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="scripts/commons.js"></script>
+    <script type="text/javascript" src="scripts/registration.js"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+</head>
+<body>
+<div class="content">
+    include "banner.html"
+    <div class="left-column">
+        include "lang-switch.html"
+        include "mainmenu.html"
+    </div>
+    <div class="center-content">
+        <p class="bread-crumbs"><a id="home-breadcrumbs-link" href="index.html">Home</a> / <span id="registration-breadcrumb">Registration</span></p>
+
+        <h2 id="registration-section-header">Registration</h2>
+
+        <div class="registration-section">
+            <p>Registration successful.</p>
+            <p>Please check your Email</p>
+        </div>
+    </div>
+    include "footer.html"
+</div>
+</body>
+include "doctypeclose.html"

@@ -33,7 +33,10 @@
     "grunt-includes": "~0.4.2",
     "grunt-contrib-copy": "~0.5.0",
     "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-uglify": "^0.6.0"
+    "grunt-contrib-uglify": "^0.6.0",
+    "request": "^2.47.0",
+    "body-parser": "^1.9.2",
+    "cheerio": "^0.18.0"
   },
   "engines": {
     "node": "0.10.x"

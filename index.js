@@ -3,7 +3,14 @@ var express = require('express'),
     http = require("http"),
     path = require("path"),
     workingFolder = path.join(__dirname, '/web'),
+    registrationComponent = require('./backend/registration'),
+    bodyParser = require('body-parser'),
     port = process.env.PORT || 80;
+
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({
+    extended: true
+}));
 
 // simple logger
 app.use(function (req, res, next) {
@@ -11,15 +18,19 @@ app.use(function (req, res, next) {
     next();
 });
 
+
+app.post('/backend_register', registrationComponent);
+app.get('/backend_register', registrationComponent);
+
 // respond
 app.use(function (req, res, next) {
-//    res.sendfile(path.join(__dirname, "/zag.gif"));
     if (req.path === '/') {
         res.sendfile(path.join(workingFolder, '/index.html'));
-    } else {
+    } else if (req.path.indexOf('/backend') === -1) {
         res.sendfile(path.join(workingFolder, req.path));
+    } else {
+        next();
     }
-
 });
 
 http.createServer(app).listen(port, function () {

@@ -23,7 +23,7 @@ include "doctype.html"
         <h2 id="registration-section-header">Registration</h2>
 
         <div class="registration-section">
-            <form action="https://docs.google.com/forms/d/1EV7UxcMJgTGxdiX7wl5zLiIfo4EnuqCibq0fynobKMI/formResponse?embedded=true" target="_blank" method="post">
+            <form action="/backend_register" method="post">
                 <ol>
                     <li>
                         <label for="entry_1987303274" id="registration-name" class="mandatory">Name</label><input name="entry.1987303274" id="entry_1987303274" type="text"/>
@@ -101,11 +101,20 @@ include "doctype.html"
                     <span class="mandatory"><img src="images/emptypx.png" alt="" title="" width="15"/></span> <span id="registration-mandatory-fields">Mandatory Fields</span>
                     <span class="optional"><img src="images/emptypx.png" alt="" title="" width="15"/></span> <span id="registration-optional-fields">Optional Fields</span>
                 </div>
+                <script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LfAhv0SAAAAAOQsDRawFRx7QlYancR1mdjhM98a">
+                </script>
+                <noscript>
+                    <iframe src="http://www.google.com/recaptcha/api/noscript?k=6LfAhv0SAAAAAOQsDRawFRx7QlYancR1mdjhM98a"
+                            height="300" width="500" frameborder="0"></iframe><br>
+                    <textarea name="recaptcha_challenge_field" rows="3" cols="40">
+                    </textarea>
+                    <input type="hidden" name="recaptcha_response_field"
+                           value="manual_challenge">
+                </noscript>
                 <div class="submitbutton">
                     <input type="submit" id="registration-submit-button" value="Submit"/>
                 </div>
             </form>
-            <div id="paypal-purchase"></div>
         </div>
     </div>
     include "footer.html"
