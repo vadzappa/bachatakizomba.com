@@ -2,7 +2,7 @@ var express = require('express'),
     app = express(),
     http = require("http"),
     path = require("path"),
-    workingFolder = path.join(__dirname, '/web'),
+    workingFolder = path.normalize('./web'),
     port = process.env.PORT || 80;
 
 // simple logger
