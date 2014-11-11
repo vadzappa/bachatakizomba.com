@@ -112,4 +112,7 @@ module.exports = function (grunt) {
     grunt.registerTask('prod', ['sass:prod', 'includes:build', 'copy:images', 'copy:scripts', 'uglify:prod']);
     grunt.registerTask('dev', ['sass:dev', 'includes:build', 'copy:images', 'copy:scripts']);
 
+      // Heroku task
+    grunt.registerTask("heroku", ["prod"]);
+
 };
