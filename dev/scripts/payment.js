@@ -104,7 +104,7 @@ com = window.com;
                             "return": 'http://bachatakizomba.com',
                             "cancel_return": 'http://bachatakizomba.com',
                             "cbt": 'Back to bachatakizomba.com',
-                            "image_url": 'http://bachatakizomba.com/images/home-top-banner.png',
+                            "image_url": 'http://bachatakizomba.com/images/home-top-banner.jpg',
                             "currency_code": CURRENCY,
                             "name": 'On The Wave - ' + passType + ' Pass; ' + name + ', ' + surname + ', ' + emailField.val(),
                             "tax": '4',

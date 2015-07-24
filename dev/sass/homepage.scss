@@ -9,7 +9,7 @@ div.home-page-banner {
     padding: 0;
     margin: 0 auto;
     background-color: white;
-    background-image: url("../images/home/banner.png");
+    background-image: url("../images/home/banner.jpg");
     background-repeat: no-repeat;
     width: 100%;
     height: $mainBannerHeight;
@@ -23,10 +23,10 @@ div.home-page-banner-continuation {
 
 div.home-page-lang-switcher-menu {
     position: absolute;
-    top: 369px;
-    left: 123px;
+    top: 364px;
+    left: 124px;
     a {
-        margin-left: 12px;
+        margin-left: 4px;
     }
 }
 
@@ -58,6 +58,16 @@ div.main-menu {
     font-size: 1.7em;
     li {
         margin: 10px 0 0 0;
+    }
+    .sponsors {
+        margin: 140px 0 50px 80px;
+        font-size: 0.6em;
+        font-weight: bold;
+        .sponsors-logos {
+            img {
+                margin: 5px 10px 0 0;
+            }
+        }
     }
 }
 
