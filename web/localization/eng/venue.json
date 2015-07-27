@@ -18,8 +18,8 @@
     {"venue-transfer":"Transfer"},
     {"venue-transfer-offered":"Following transfers offered: (Airport-Hotel and Hotel-Airport)"},
     {"venue-transfer-cost-header":"Transfer cost (to be paid at the hotel):"},
-    {"venue-transfer-cost-1-3":"10,00 &euro;/per transfer (1-3 person in the car)"},
-    {"venue-transfer-cost-3-7":"20,00 &euro;/per transfer (4-7 person in minibus)"},
+    {"venue-transfer-cost-1-3":"15,00 &euro;/per transfer (1-3 person in the car)"},
+    {"venue-transfer-cost-3-7":"23,00 &euro;/per transfer (4-7 person in minibus)"},
     {"venue-transfer-taxi-driver":"Taxi driver will meet guests inside the Airport&apos;s arrival hall, at the arrival time, with written guest&apos;s name and surname on the sign."},
     {"venue-transfer-aknowledgement":"Please let the HOTEL know the flight details when BOOKING, if you would like to order the TRANSFER."}
 ]

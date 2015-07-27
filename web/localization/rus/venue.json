@@ -18,8 +18,8 @@
         {"venue-transfer":"Транзит"},
         {"venue-transfer-offered":"Есть предложение по встрече в аэропорту."},
         {"venue-transfer-cost-header":"Транзит Аэропорт – Bellevue Park Hotel Riga  или Bellevue Park Hotel Riga – Аэропорт стоит:"},
-        {"venue-transfer-cost-1-3":"10 &euro; (от 1 до 3 персон в машине)"},
-        {"venue-transfer-cost-3-7":"20 &euro; (от 4 до 7 персон в микроавтобусе)"},
+        {"venue-transfer-cost-1-3":"15 &euro; (от 1 до 3 персон в машине)"},
+        {"venue-transfer-cost-3-7":"30 &euro; (от 4 до 7 персон в микроавтобусе)"},
         {"venue-transfer-taxi-driver":"Водитель такси встретит вас в здании аэропорта во время прибытия самолёта с табличкой имени пребываемого."},
         {"venue-transfer-aknowledgement":"Пожалуйста дайте все данные своего прибытия во время резервации отеля, чтобы заказать трансфер."}
 ]
