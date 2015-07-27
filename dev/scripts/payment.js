@@ -13,7 +13,7 @@ com = window.com;
         MOMENT_FORMAT = 'DD.MM.YY',
         MAIL_DT_FORMAT = 'MM/DD/YYYY HH:mm:ss',
         PRICE_TABLE = {
-            '30.09.15': {Full: '60', Saturday: '80', Sunday: '70', Party: '55'},
+            '31.08.15': {Full: '60', Saturday: '80', Sunday: '70', Party: '55'},
             '31.10.15': {Full: '70', Saturday: '80', Sunday: '70', Party: '55'},
             '30.11.15': {Full: '80', Saturday: '80', Sunday: '70', Party: '55'},
             '31.01.16': {Full: '90', Saturday: '80', Sunday: '70', Party: '55'},
