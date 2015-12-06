@@ -21,9 +21,11 @@
     {"price-sunday-party":"Вечеринка в воскресенье"},
     {"price-single-workshop":"Одно занятие"},
     {"price-full-pass-descr":"Фулл пасс – все занятия и все вечеринки фестиваля."},
-    {"price-friday-pass-descr":"Пасс на пятницу – все занятия и вечеринка пятницы."},
-    {"price-saturday-pass-descr":"Пасс на субботу – все занятия и вечеринка субботы."},
-    {"price-sunday-pass-descr":"Пасс на воскресенье – все занятия и вечеринка воскресенья."},
+    {"price-beginner-pass-descr":"Бегинер пасс – все занятия уровней бегинер и все вечеринки фестиваля."},
     {"price-party-pass-descr":"Пасс на вечеринки – все вечеринки фестиваля  (пятница, суббота, воскресенье)."},
+    {"price-friday-party-descr":"Пятничная вечеринка – вечеринка пятницы."},
+    {"price-saturday-party-descr":"Субботняя вечеринка – вечеринка субботы."},
+    {"price-sunday-party-descr":"Воскресная вечеринка – вечеринка воскресенья."},
+    {"price-workshop-descr":"Занятие – отдельно взятое занятие."},
     {"prices-section-image-keeper":"<img src=\"images/prices/prices_rus.jpg\"/>"}
 ]

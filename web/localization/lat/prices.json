@@ -20,10 +20,12 @@
     {"price-saturday-party":"Sestdienas ballīte"},
     {"price-sunday-party":"Svētdienas ballīte"},
     {"price-single-workshop":"Viena nodarbība"},
-    {"price-full-pass-descr":"Pilnā biļete – visas festivāla nodarbības un ballītes."},
-    {"price-friday-pass-descr":"Piektdienas biļete – piektdienas nodarbības un ballītes."},
-    {"price-saturday-pass-descr":"Sestdienas biļete – sestdienas nodarbības un ballītes."},
-    {"price-sunday-pass-descr":"Svētdienas biļete – svētdienas nodarbības un ballītes."},
-    {"price-party-pass-descr":"Ballīšu biļete – piektdienas, sestdienas un svētdienas ballītes."},
+    {"price-full-pass-descr":"Full pass – all workshops and parties of the festival."},
+    {"price-beginner-pass-descr":"Beginner pass – only beginner level workshops and all parties of the festival."},
+    {"price-party-pass-descr":"Party pass – parties on Friday, Saturday and Sunday."},
+    {"price-friday-party-descr":"Friday party – Fridays&apos;s party."},
+    {"price-saturday-party-descr":"Saturday party – Saturday&apos;s party."},
+    {"price-sunday-party-descr":"Sunday party – Sunday&apos;s party."},
+    {"price-workshop-descr":"Workshop – any single workshop separately."},
     {"prices-section-image-keeper":"<img src=\"images/prices/prices_lat.jpg\"/>"}
 ]

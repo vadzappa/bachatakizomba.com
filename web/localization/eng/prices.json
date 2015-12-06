@@ -11,7 +11,6 @@
     {"price-until-03":"Until 31.03"},
     {"price-until-05":"Until 28.04"},
     {"price-until-door":"At the door"},
-    {"price-full-pass":"Full pass"},
     {"price-friday-pass":"Friday pass"},
     {"price-saturday-pass":"Saturday pass"},
     {"price-sunday-pass":"Sunday pass"},
@@ -21,9 +20,11 @@
     {"price-sunday-party":"Sunday party"},
     {"price-single-workshop":"Single workshop"},
     {"price-full-pass-descr":"Full pass – all workshops and parties of the festival."},
-    {"price-friday-pass-descr":"Friday pass – friday&apos;s workshops and party."},
-    {"price-saturday-pass-descr":"Saturday pass – saturday&apos;s workshops and party."},
-    {"price-sunday-pass-descr":"Sunday pass – sunday&apos;s workshops and party."},
+    {"price-beginner-pass-descr":"Beginner pass – only beginner level workshops and all parties of the festival."},
     {"price-party-pass-descr":"Party pass – parties on Friday, Saturday and Sunday."},
+    {"price-friday-party-descr":"Friday party – Fridays&apos;s party."},
+    {"price-saturday-party-descr":"Saturday party – Saturday&apos;s party."},
+    {"price-sunday-party-descr":"Sunday party – Sunday&apos;s party."},
+    {"price-workshop-descr":"Workshop – any single workshop separately."},
     {"prices-section-image-keeper":"<img src=\"images/prices/prices_eng.jpg\"/>"}
 ]

@@ -3,7 +3,11 @@
 div.prices-section {
     padding-bottom: 70px;
     margin-top: 25px;
-    margin-left: 15px;
+
+    img {
+        max-width: 580px;
+    }
+
     ul {
         margin: 15px 0 0 25px;
         padding: 0;

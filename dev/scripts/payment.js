@@ -13,14 +13,14 @@ com = window.com;
         MOMENT_FORMAT = 'DD.MM.YY',
         MAIL_DT_FORMAT = 'MM/DD/YYYY HH:mm:ss',
         PRICE_TABLE = {
-            '31.08.15': {Full: '60', Saturday: '80', Sunday: '70', Party: '55'},
-            '31.10.15': {Full: '80', Saturday: '80', Sunday: '70', Party: '55'},
-            '30.11.15': {Full: '90', Saturday: '80', Sunday: '70', Party: '55'},
-            '31.01.16': {Full: '100', Saturday: '80', Sunday: '70', Party: '55'},
-            '28.02.16': {Full: '110', Saturday: '80', Sunday: '70', Party: '55'},
-            '31.03.16': {Full: '120', Saturday: '80', Sunday: '70', Party: '55'},
-            '03.05.16': {Full: '130', Saturday: '80', Sunday: '70', Party: '55'},
-            '08.05.16': {Full: '140', Saturday: '85', Sunday: '75', Party: '60'}
+            '31.08.15': {Full: '90', Beginner: '70', Party: '55', Friday: '20', Saturday: '25', Sunday: '15', Workshop: '15'},
+            '31.10.15': {Full: '90', Beginner: '70', Party: '55', Friday: '20', Saturday: '25', Sunday: '15', Workshop: '15'},
+            '30.11.15': {Full: '90', Beginner: '70', Party: '55', Friday: '20', Saturday: '25', Sunday: '15', Workshop: '15'},
+            '31.01.16': {Full: '90', Beginner: '70', Party: '55', Friday: '20', Saturday: '25', Sunday: '15', Workshop: '15'},
+            '29.02.16': {Full: '100', Beginner: '70', Party: '55', Friday: '20', Saturday: '25', Sunday: '15', Workshop: '15'},
+            '31.03.16': {Full: '110', Beginner: '70', Party: '55', Friday: '20', Saturday: '25', Sunday: '15', Workshop: '15'},
+            '01.05.16': {Full: '120', Beginner: '80', Party: '55', Friday: '20', Saturday: '25', Sunday: '15', Workshop: '15'},
+            '08.05.16': {Full: '130', Beginner: '90', Party: '60', Friday: '20', Saturday: '25', Sunday: '15', Workshop: '15'}
         },
         CURRENCY = 'EUR',
         validateFields = function () {
