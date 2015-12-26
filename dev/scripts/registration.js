@@ -77,7 +77,7 @@ com = window.com;
                     $.ajax({
                         cache: false,
                         crossDomain: true,
-                        url: 'https://docs.google.com/a/bachatakizomba.com/forms/d/1EV7UxcMJgTGxdiX7wl5zLiIfo4EnuqCibq0fynobKMI/formResponse',
+                        url: 'https://docs.google.com/a/www.bachatakizomba.com/forms/d/1EV7UxcMJgTGxdiX7wl5zLiIfo4EnuqCibq0fynobKMI/formResponse',
                         type: 'POST',
                         dataType: 'xml',
                         data: formData,
