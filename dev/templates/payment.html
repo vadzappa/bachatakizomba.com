@@ -31,6 +31,7 @@ include "doctype.html"
         <ol>
           <li>
             <label for="registration-name" class="mandatory">Name</label><input name="registration-name" id="registration-name" type="text"/>
+            <input name="registration-promocode" id="registration-promocode" type="hidden"/>
           </li>
           <li>
             <label for="registration-surname" class="mandatory">Surname</label><input name="registration-surname" id="registration-surname" type="text"/>
@@ -44,9 +45,9 @@ include "doctype.html"
               <option value="Full" id="registration-pass-full">Full</option>
               <option value="Beginner" id="registration-pass-beginner">Beginner</option>
               <option value="Party" id="registration-pass-party">Party</option>
-              <option value="Friday" id="registration-pass-friday">Friday</option>
-              <option value="Saturday" id="registration-pass-saturday">Saturday</option>
-              <option value="Sunday" id="registration-pass-sunday">Sunday</option>
+              <option value="Friday" id="registration-pass-friday">Friday party</option>
+              <option value="Saturday" id="registration-pass-saturday">Saturday pass</option>
+              <option value="Sunday" id="registration-pass-sunday">Sunday pass</option>
               <option value="Workshop" id="registration-pass-workshop">Workshop</option>
             </select>
           </li>

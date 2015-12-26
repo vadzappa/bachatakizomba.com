@@ -6,6 +6,7 @@ include "doctype.html"
     </title>
     <link rel="stylesheet" href="css/registration.css"/>
     <script type="text/javascript" src="scripts/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="scripts/moment.min.js"></script>
     <script type="text/javascript" src="scripts/commons.js"></script>
     <script type="text/javascript" src="scripts/registration.js"></script>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
@@ -89,11 +90,15 @@ include "doctype.html"
                             <option value="Full" id="registration-pass-full">Full</option>
                             <option value="Beginner" id="registration-pass-beginner">Beginner</option>
                             <option value="Party" id="registration-pass-party">Party</option>
-                            <option value="Friday" id="registration-pass-friday">Friday</option>
-                            <option value="Saturday" id="registration-pass-saturday">Saturday</option>
-                            <option value="Sunday" id="registration-pass-sunday">Sunday</option>
+                            <option value="Friday" id="registration-pass-friday">Friday party</option>
+                            <option value="Saturday" id="registration-pass-saturday">Saturday pass</option>
+                            <option value="Sunday" id="registration-pass-sunday">Sunday pass</option>
                             <option value="Workshop" id="registration-pass-workshop">Workshop</option>
                         </select>
+                    </li>
+
+                    <li>
+                        <label for="entry_1154208259" id="registration-promocode">Promocode</label><input name="entry.1154208259" id="entry_1154208259" type="text"/>
                     </li>
 
                     <li>
@@ -104,16 +109,6 @@ include "doctype.html"
                     <span class="mandatory"><img src="images/emptypx.png" alt="" title="" width="15"/></span> <span id="registration-mandatory-fields">Mandatory Fields</span>
                     <span class="optional"><img src="images/emptypx.png" alt="" title="" width="15"/></span> <span id="registration-optional-fields">Optional Fields</span>
                 </div>
-                <!--<script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=GOOGLE_PUBLIC_RE_CAPTCHA_KEY">
-                </script>
-                <noscript>
-                    <iframe src="http://www.google.com/recaptcha/api/noscript?k=GOOGLE_PUBLIC_RE_CAPTCHA_KEY"
-                            height="300" width="500" frameborder="0"></iframe><br>
-                    <textarea name="recaptcha_challenge_field" rows="3" cols="40">
-                    </textarea>
-                    <input type="hidden" name="recaptcha_response_field"
-                           value="manual_challenge">
-                </noscript>-->
                 <div class="submitbutton">
                     <input type="submit" id="registration-submit-button" value="Submit"/>
                 </div>

@@ -22,6 +22,17 @@ com = window.com;
             '01.05.16': {Full: '120', Beginner: '80', Party: '55', Friday: '20', Saturday: '25', Sunday: '15', Workshop: '15'},
             '08.05.16': {Full: '130', Beginner: '90', Party: '60', Friday: '20', Saturday: '25', Sunday: '15', Workshop: '15'}
         },
+        PROMOS = {
+            'RAIMO': {Full: 10, Beginner: 5},
+            'NEMANJA': {Full: 10, Beginner: 5},
+            'DOMINO': {Full: 10, Beginner: 5},
+            'RONIE': {Full: 10, Beginner: 5},
+            'RUSLAN': {Full: 10, Beginner: 5},
+            'ANDREJ': {Full: 10, Beginner: 5},
+            'INGA': {Full: 10, Beginner: 5},
+            'VISHAL': {Full: 10, Beginner: 5},
+            'OLLO': {Full: 10, Beginner: 5}
+        },
         CURRENCY = 'EUR',
         validateFields = function () {
             var isCorrectSubmitData = true;
@@ -84,16 +95,22 @@ com = window.com;
                 currentTime = $.QueryString.ts ? parseTimeStamp($.QueryString.ts) : moment(),
                 nameField = $form.find('#registration-name'),
                 surnameField = $form.find('#registration-surname'),
+                promocodeField = $form.find('#registration-promocode'),
                 emailField = $form.find('#registration-email'),
                 passTypeField = $form.find('select[id="registration-pass"]'),
                 updatePayPalButton = function () {
-                    var priceFilter = function (priceDateLimitPrices, dateTime) {
+                    var priceFilter = function(priceDateLimitPrices, dateTime) {
                             var timeLimit = moment(dateTime, MOMENT_FORMAT);
                             return currentTime.isBefore(timeLimit, 'day') || currentTime.isSame(timeLimit, 'day');
                         },
+                        findDiscount = function(promo, passType) {
+                            return (PROMOS[promo] && PROMOS[promo][passType]) || 0;
+                        },
                         passType = passTypeField.find('option:selected').val(),
                         priceForToday = _.find(PRICE_TABLE, priceFilter),
-                        passPrice = priceForToday ? priceForToday[passType] : null,
+                        passPrice = priceForToday ? parseFloat(priceForToday[passType]) : 0,
+                        passDiscount = findDiscount(promocodeField.val(), passType),
+                        finalPassPrice = passPrice - passDiscount,
                         name = nameField.val(),
                         surname = surnameField.val(),
                         payPalConfig = {
@@ -108,14 +125,18 @@ com = window.com;
                             "currency_code": CURRENCY,
                             "name": 'On The Wave - ' + passType + ' Pass; ' + name + ', ' + surname + ', ' + emailField.val(),
                             "tax": '4',
-                            "amount": passPrice,
+                            "amount": finalPassPrice.toFixed(2),
                             "email": emailField.val(),
                             "custom": name + ', ' + surname + ', ' + emailField.val(),
                             "first_name": name,
                             "last_name": surname,
                             "no_shipping": '1'
                         };
-                    if (!passPrice) {
+                    if (passDiscount != 0) {
+                        buttonData.custom += '; promocode: ' + promocodeField.val();
+                        buttonData.name += '; promocode: ' + promocodeField.val();
+                    }
+                    if (!finalPassPrice) {
                         return;
                     }
 
@@ -130,6 +151,7 @@ com = window.com;
             reInitPayPalButtonEventStream.onValue(updatePayPalButton);
             nameField.val($.QueryString.name);
             surnameField.val($.QueryString.surname);
+            promocodeField.val($.QueryString.promo);
             emailField.val($.QueryString.email);
             if ($.QueryString.pass) {
                 passTypeField.val($.QueryString.pass);
