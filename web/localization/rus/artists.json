@@ -2,19 +2,17 @@
     {
         "-include-ext": ["/common.json", "/common-breads.json", "/artists-breads.json"]
     },
-    {"artist-morenasso-anais":"Morenasso &amp; Anais<br/>(Франция)"},
-    {"artist-paulo-lanna":"Paulo &amp; Lanna<br/>(Ангола)"},
-    {"artist-arawi-alina":"Arawi &amp; Alina<br/>(Бельгия)"},
-    {"artist-yasser-solia":"Yasser &amp; Solia<br/>(Куба/Финляндия)"},
+    {"artist-manuel-flavie":"Manuel &amp; Flavie<br/>(Канада)"},
+    {"artist-ronie":"Ronie Saleh<br/>(Швеция)"},
+    {"artist-paulo-lanna":"Paulo &amp; Lanna<br/>(Португалия)"},
     {"artist-nemanja-laura":"Nemanja &amp; Laura<br/>(Сербия/Финляндия)"},
-    {"artist-tomas-keita":"Tomas Keita<br/>(Испания)"},
-    {"artist-ivan-salazar":"Ivan Salazar<br/>(Куба)"},
-    {"artist-slawek-milena":"Slawek &amp; Milena<br/>(Польша)"},
-    {"artist-francis":"Francisco Delavega<br/>(Франция)"},
+    {"artist-rohan":"Rohan Brown<br/>(Великобритания)"},
     {"artist-vishal_raja":"Vishal Raja<br/>(Индия)"},
-    {"artist-babacar":"DJ Babacar<br/>(Португалия)"},
-    {"artist-mega-sheep":"DJ Mega&apos;N&apos;Sheep<br/>(Беларусь)"},
+    {"artist-george":"George Daniels<br/>(Норвегия)"},
+    {"artist-yasser":"Yasser Sarria Terry<br/>(Куба)"},
+    {"artist-dj-babacar":"DJ Babacar<br/>(Португалия)"},
+    {"artist-saul":"DJ Saul<br/>(Германия)"},
+    {"artist-dj-havana":"DJ Havana<br/>(Куба)"},
     {"artist-joker":"DJ The Joker is Wild<br/>(Латвия)"},
-    {"artist-raimo":"DJ Raimo<br/>(Латвия)"},
-    {"artist-dj-el-farao":"DJ El Farao<br/>(Норвегия)"}
+    {"artist-raimo":"DJ Raimo<br/>(Латвия)"}
 ]

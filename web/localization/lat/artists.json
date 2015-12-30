@@ -2,19 +2,17 @@
     {
         "-include-ext": ["/common.json", "/common-breads.json", "/artists-breads.json"]
     },
-    {"artist-morenasso-anais":"Morenasso &amp; Anais<br/>(Francija)"},
-    {"artist-paulo-lanna":"Paulo &amp; Lanna<br/>(Angola)"},
-    {"artist-arawi-alina":"Arawi &amp; Alina<br/>(Belģija)"},
-    {"artist-yasser-solia":"Yasser &amp; Solia<br/>(Kuba/Somija)"},
+    {"artist-manuel-flavie":"Manuel &amp; Flavie<br/>(Canada)"},
+    {"artist-ronie":"Ronie Saleh<br/>(Sweden)"},
+    {"artist-paulo-lanna":"Paulo &amp; Lanna<br/>(Portugal)"},
     {"artist-nemanja-laura":"Nemanja &amp; Laura<br/>(Serbija/Somija)"},
-    {"artist-tomas-keita":"Tomas Keita<br/>(Spānija)"},
-    {"artist-ivan-salazar":"Ivan Salazar<br/>(Kuba)"},
-    {"artist-slawek-milena":"Slawek &amp; Milena<br/>(Polija)"},
-    {"artist-francis":"Francisco Delavega<br/>(Francija)"},
+    {"artist-rohan":"Rohan Brown<br/>(UK)"},
     {"artist-vishal_raja":"Vishal Raja<br/>(Indija)"},
-    {"artist-babacar":"DJ Babacar<br/>(Portugāle)"},
-    {"artist-mega-sheep":"DJ Mega&apos;N&apos;Sheep<br/>(Baltkrievija)"},
+    {"artist-george":"George Daniels<br/>(Norvēģija)"},
+    {"artist-yasser":"Yasser Sarria Terry<br/>(Kuba)"},
+    {"artist-dj-babacar":"DJ Babacar<br/>(Portugal)"},
+    {"artist-saul":"DJ Saul<br/>(Germany)"},
+    {"artist-dj-havana":"DJ Havana<br/>(Kuba)"},
     {"artist-joker":"DJ The Joker is Wild<br/>(Latvija)"},
-    {"artist-raimo":"DJ Raimo<br/>(Latvija)"},
-    {"artist-dj-el-farao":"DJ El Farao<br/>(Norvēģija)"}
+    {"artist-raimo":"DJ Raimo<br/>(Latvija)"}
 ]
