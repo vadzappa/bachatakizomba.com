@@ -104,7 +104,8 @@ com = window.com;
                             return currentTime.isBefore(timeLimit, 'day') || currentTime.isSame(timeLimit, 'day');
                         },
                         findDiscount = function(promo, passType) {
-                            return (PROMOS[promo] && PROMOS[promo][passType]) || 0;
+                            var promoCode = promo ? promo.toUpperCase() : '';
+                            return (PROMOS[promoCode] && PROMOS[promoCode][passType]) || 0;
                         },
                         passType = passTypeField.find('option:selected').val(),
                         priceForToday = _.find(PRICE_TABLE, priceFilter),
