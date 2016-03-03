@@ -31,7 +31,9 @@ com = window.com;
             'ANDREJ': {Full: 10, Beginner: 5},
             'INGA': {Full: 10, Beginner: 5},
             'VISHAL': {Full: 10, Beginner: 5},
-            'OLLO': {Full: 10, Beginner: 5}
+            'OLLO': {Full: 10, Beginner: 5},
+            'OMAR': {Full: 10, Beginner: 5},
+            'PREKRASN': {Full: 10, Beginner: 5}
         },
         CURRENCY = 'EUR',
         validateFields = function () {
