@@ -94,3 +94,15 @@ div.last-news {
         }
     }
 }
+
+div.sponsorship {
+    margin: 0 160px 25px 80px;
+    text-align: center;
+    font-size: 1.1em;
+    p.sponsor-text {
+        margin: 0 0 0 10px;
+    }
+    img {
+        display: block;
+    }
+}

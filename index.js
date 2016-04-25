@@ -5,7 +5,7 @@ var express = require('express'),
     workingFolder = path.join(__dirname, '/web'),
     registrationComponent = require('./backend/registration'),
     bodyParser = require('body-parser'),
-    port = process.env.PORT || 80;
+    port = process.env.PORT || 8090;
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
