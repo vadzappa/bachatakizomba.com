@@ -104,5 +104,8 @@ div.sponsorship {
     }
     img {
         display: block;
+        &.stenders {
+            margin-top: 30px;
+        }
     }
 }
